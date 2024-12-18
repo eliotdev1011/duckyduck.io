@@ -1,0 +1,3401 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ducky Duck</title>
+    <meta name="robots" content="max-image-preview:large" />
+    <link rel="dns-prefetch" href="//www.googletagmanager.com" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Ducky Duck &raquo; Feed"
+      href="https://duckyduck.io/feed/"
+    />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Ducky Duck &raquo; Comments Feed"
+      href="https://duckyduck.io/comments/feed/"
+    />
+    <script>
+      window._wpemojiSettings = {
+        baseUrl: "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/",
+        ext: ".png",
+        svgUrl: "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/",
+        svgExt: ".svg",
+        source: {
+          concatemoji:
+            "https:\/\/duckyduck.io\/wp-includes\/js\/wp-emoji-release.min.js?ver=039259fff0351bc4450ac90ed36cad7d",
+        },
+      };
+      /*! This file is auto-generated */
+      !(function (i, n) {
+        var o, s, e;
+        function c(e) {
+          try {
+            var t = { supportTests: e, timestamp: new Date().valueOf() };
+            sessionStorage.setItem(o, JSON.stringify(t));
+          } catch (e) {}
+        }
+        function p(e, t, n) {
+          e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+            e.fillText(t, 0, 0);
+          var t = new Uint32Array(
+              e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+            ),
+            r =
+              (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+              e.fillText(n, 0, 0),
+              new Uint32Array(
+                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+              ));
+          return t.every(function (e, t) {
+            return e === r[t];
+          });
+        }
+        function u(e, t, n) {
+          switch (t) {
+            case "flag":
+              return n(
+                e,
+                "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f",
+                "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f"
+              )
+                ? !1
+                : !n(
+                    e,
+                    "\ud83c\uddfa\ud83c\uddf3",
+                    "\ud83c\uddfa\u200b\ud83c\uddf3"
+                  ) &&
+                    !n(
+                      e,
+                      "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
+                      "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
+                    );
+            case "emoji":
+              return !n(
+                e,
+                "\ud83d\udc26\u200d\u2b1b",
+                "\ud83d\udc26\u200b\u2b1b"
+              );
+          }
+          return !1;
+        }
+        function f(e, t, n) {
+          var r =
+              "undefined" != typeof WorkerGlobalScope &&
+              self instanceof WorkerGlobalScope
+                ? new OffscreenCanvas(300, 150)
+                : i.createElement("canvas"),
+            a = r.getContext("2d", { willReadFrequently: !0 }),
+            o = ((a.textBaseline = "top"), (a.font = "600 32px Arial"), {});
+          return (
+            e.forEach(function (e) {
+              o[e] = t(a, e, n);
+            }),
+            o
+          );
+        }
+        function t(e) {
+          var t = i.createElement("script");
+          (t.src = e), (t.defer = !0), i.head.appendChild(t);
+        }
+        "undefined" != typeof Promise &&
+          ((o = "wpEmojiSettingsSupports"),
+          (s = ["flag", "emoji"]),
+          (n.supports = { everything: !0, everythingExceptFlag: !0 }),
+          (e = new Promise(function (e) {
+            i.addEventListener("DOMContentLoaded", e, { once: !0 });
+          })),
+          new Promise(function (t) {
+            var n = (function () {
+              try {
+                var e = JSON.parse(sessionStorage.getItem(o));
+                if (
+                  "object" == typeof e &&
+                  "number" == typeof e.timestamp &&
+                  new Date().valueOf() < e.timestamp + 604800 &&
+                  "object" == typeof e.supportTests
+                )
+                  return e.supportTests;
+              } catch (e) {}
+              return null;
+            })();
+            if (!n) {
+              if (
+                "undefined" != typeof Worker &&
+                "undefined" != typeof OffscreenCanvas &&
+                "undefined" != typeof URL &&
+                URL.createObjectURL &&
+                "undefined" != typeof Blob
+              )
+                try {
+                  var e =
+                      "postMessage(" +
+                      f.toString() +
+                      "(" +
+                      [JSON.stringify(s), u.toString(), p.toString()].join(
+                        ","
+                      ) +
+                      "));",
+                    r = new Blob([e], { type: "text/javascript" }),
+                    a = new Worker(URL.createObjectURL(r), {
+                      name: "wpTestEmojiSupports",
+                    });
+                  return void (a.onmessage = function (e) {
+                    c((n = e.data)), a.terminate(), t(n);
+                  });
+                } catch (e) {}
+              c((n = f(s, u, p)));
+            }
+            t(n);
+          })
+            .then(function (e) {
+              for (var t in e)
+                (n.supports[t] = e[t]),
+                  (n.supports.everything =
+                    n.supports.everything && n.supports[t]),
+                  "flag" !== t &&
+                    (n.supports.everythingExceptFlag =
+                      n.supports.everythingExceptFlag && n.supports[t]);
+              (n.supports.everythingExceptFlag =
+                n.supports.everythingExceptFlag && !n.supports.flag),
+                (n.DOMReady = !1),
+                (n.readyCallback = function () {
+                  n.DOMReady = !0;
+                });
+            })
+            .then(function () {
+              return e;
+            })
+            .then(function () {
+              var e;
+              n.supports.everything ||
+                (n.readyCallback(),
+                (e = n.source || {}).concatemoji
+                  ? t(e.concatemoji)
+                  : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)));
+            }));
+      })((window, document), window._wpemojiSettings);
+    </script>
+    <style id="wp-emoji-styles-inline-css">
+      img.wp-smiley,
+      img.emoji {
+        display: inline !important;
+        border: none !important;
+        box-shadow: none !important;
+        height: 1em !important;
+        width: 1em !important;
+        margin: 0 0.07em !important;
+        vertical-align: -0.1em !important;
+        background: none !important;
+        padding: 0 !important;
+      }
+    </style>
+    <style id="global-styles-inline-css">
+      :root {
+        --wp--preset--aspect-ratio--square: 1;
+        --wp--preset--aspect-ratio--4-3: 4/3;
+        --wp--preset--aspect-ratio--3-4: 3/4;
+        --wp--preset--aspect-ratio--3-2: 3/2;
+        --wp--preset--aspect-ratio--2-3: 2/3;
+        --wp--preset--aspect-ratio--16-9: 16/9;
+        --wp--preset--aspect-ratio--9-16: 9/16;
+        --wp--preset--color--black: #000000;
+        --wp--preset--color--cyan-bluish-gray: #abb8c3;
+        --wp--preset--color--white: #ffffff;
+        --wp--preset--color--pale-pink: #f78da7;
+        --wp--preset--color--vivid-red: #cf2e2e;
+        --wp--preset--color--luminous-vivid-orange: #ff6900;
+        --wp--preset--color--luminous-vivid-amber: #fcb900;
+        --wp--preset--color--light-green-cyan: #7bdcb5;
+        --wp--preset--color--vivid-green-cyan: #00d084;
+        --wp--preset--color--pale-cyan-blue: #8ed1fc;
+        --wp--preset--color--vivid-cyan-blue: #0693e3;
+        --wp--preset--color--vivid-purple: #9b51e0;
+        --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(
+          135deg,
+          rgba(6, 147, 227, 1) 0%,
+          rgb(155, 81, 224) 100%
+        );
+        --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(
+          135deg,
+          rgb(122, 220, 180) 0%,
+          rgb(0, 208, 130) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(
+          135deg,
+          rgba(252, 185, 0, 1) 0%,
+          rgba(255, 105, 0, 1) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(
+          135deg,
+          rgba(255, 105, 0, 1) 0%,
+          rgb(207, 46, 46) 100%
+        );
+        --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(
+          135deg,
+          rgb(238, 238, 238) 0%,
+          rgb(169, 184, 195) 100%
+        );
+        --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(
+          135deg,
+          rgb(74, 234, 220) 0%,
+          rgb(151, 120, 209) 20%,
+          rgb(207, 42, 186) 40%,
+          rgb(238, 44, 130) 60%,
+          rgb(251, 105, 98) 80%,
+          rgb(254, 248, 76) 100%
+        );
+        --wp--preset--gradient--blush-light-purple: linear-gradient(
+          135deg,
+          rgb(255, 206, 236) 0%,
+          rgb(152, 150, 240) 100%
+        );
+        --wp--preset--gradient--blush-bordeaux: linear-gradient(
+          135deg,
+          rgb(254, 205, 165) 0%,
+          rgb(254, 45, 45) 50%,
+          rgb(107, 0, 62) 100%
+        );
+        --wp--preset--gradient--luminous-dusk: linear-gradient(
+          135deg,
+          rgb(255, 203, 112) 0%,
+          rgb(199, 81, 192) 50%,
+          rgb(65, 88, 208) 100%
+        );
+        --wp--preset--gradient--pale-ocean: linear-gradient(
+          135deg,
+          rgb(255, 245, 203) 0%,
+          rgb(182, 227, 212) 50%,
+          rgb(51, 167, 181) 100%
+        );
+        --wp--preset--gradient--electric-grass: linear-gradient(
+          135deg,
+          rgb(202, 248, 128) 0%,
+          rgb(113, 206, 126) 100%
+        );
+        --wp--preset--gradient--midnight: linear-gradient(
+          135deg,
+          rgb(2, 3, 129) 0%,
+          rgb(40, 116, 252) 100%
+        );
+        --wp--preset--font-size--small: 13px;
+        --wp--preset--font-size--medium: 20px;
+        --wp--preset--font-size--large: 36px;
+        --wp--preset--font-size--x-large: 42px;
+        --wp--preset--spacing--20: 0.44rem;
+        --wp--preset--spacing--30: 0.67rem;
+        --wp--preset--spacing--40: 1rem;
+        --wp--preset--spacing--50: 1.5rem;
+        --wp--preset--spacing--60: 2.25rem;
+        --wp--preset--spacing--70: 3.38rem;
+        --wp--preset--spacing--80: 5.06rem;
+        --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+        --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1),
+          6px 6px rgba(0, 0, 0, 1);
+        --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+      }
+      :root {
+        --wp--style--global--content-size: 800px;
+        --wp--style--global--wide-size: 1200px;
+      }
+      :where(body) {
+        margin: 0;
+      }
+      .wp-site-blocks > .alignleft {
+        float: left;
+        margin-right: 2em;
+      }
+      .wp-site-blocks > .alignright {
+        float: right;
+        margin-left: 2em;
+      }
+      .wp-site-blocks > .aligncenter {
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      :where(.wp-site-blocks) > * {
+        margin-block-start: 24px;
+        margin-block-end: 0;
+      }
+      :where(.wp-site-blocks) > :first-child {
+        margin-block-start: 0;
+      }
+      :where(.wp-site-blocks) > :last-child {
+        margin-block-end: 0;
+      }
+      :root {
+        --wp--style--block-gap: 24px;
+      }
+      :root :where(.is-layout-flow) > :first-child {
+        margin-block-start: 0;
+      }
+      :root :where(.is-layout-flow) > :last-child {
+        margin-block-end: 0;
+      }
+      :root :where(.is-layout-flow) > * {
+        margin-block-start: 24px;
+        margin-block-end: 0;
+      }
+      :root :where(.is-layout-constrained) > :first-child {
+        margin-block-start: 0;
+      }
+      :root :where(.is-layout-constrained) > :last-child {
+        margin-block-end: 0;
+      }
+      :root :where(.is-layout-constrained) > * {
+        margin-block-start: 24px;
+        margin-block-end: 0;
+      }
+      :root :where(.is-layout-flex) {
+        gap: 24px;
+      }
+      :root :where(.is-layout-grid) {
+        gap: 24px;
+      }
+      .is-layout-flow > .alignleft {
+        float: left;
+        margin-inline-start: 0;
+        margin-inline-end: 2em;
+      }
+      .is-layout-flow > .alignright {
+        float: right;
+        margin-inline-start: 2em;
+        margin-inline-end: 0;
+      }
+      .is-layout-flow > .aligncenter {
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      .is-layout-constrained > .alignleft {
+        float: left;
+        margin-inline-start: 0;
+        margin-inline-end: 2em;
+      }
+      .is-layout-constrained > .alignright {
+        float: right;
+        margin-inline-start: 2em;
+        margin-inline-end: 0;
+      }
+      .is-layout-constrained > .aligncenter {
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      .is-layout-constrained
+        > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+        max-width: var(--wp--style--global--content-size);
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      .is-layout-constrained > .alignwide {
+        max-width: var(--wp--style--global--wide-size);
+      }
+      body .is-layout-flex {
+        display: flex;
+      }
+      .is-layout-flex {
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      .is-layout-flex > :is(*, div) {
+        margin: 0;
+      }
+      body .is-layout-grid {
+        display: grid;
+      }
+      .is-layout-grid > :is(*, div) {
+        margin: 0;
+      }
+      body {
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+      }
+      a:where(:not(.wp-element-button)) {
+        text-decoration: underline;
+      }
+      :root :where(.wp-element-button, .wp-block-button__link) {
+        background-color: #32373c;
+        border-width: 0;
+        color: #fff;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        padding: calc(0.667em + 2px) calc(1.333em + 2px);
+        text-decoration: none;
+      }
+      .has-black-color {
+        color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-color {
+        color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-color {
+        color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-color {
+        color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-color {
+        color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-color {
+        color: var(--wp--preset--color--luminous-vivid-orange) !important;
+      }
+      .has-luminous-vivid-amber-color {
+        color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+      .has-light-green-cyan-color {
+        color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-color {
+        color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-color {
+        color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-color {
+        color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-color {
+        color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-black-background-color {
+        background-color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-background-color {
+        background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-background-color {
+        background-color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-background-color {
+        background-color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-background-color {
+        background-color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-amber-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-amber
+        ) !important;
+      }
+      .has-light-green-cyan-background-color {
+        background-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-background-color {
+        background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-background-color {
+        background-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-black-border-color {
+        border-color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-border-color {
+        border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-border-color {
+        border-color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-border-color {
+        border-color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-border-color {
+        border-color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-border-color {
+        border-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-amber-border-color {
+        border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+      .has-light-green-cyan-border-color {
+        border-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-border-color {
+        border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-border-color {
+        border-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+        background: var(
+          --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple
+        ) !important;
+      }
+      .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+        background: var(
+          --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan
+        ) !important;
+      }
+      .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-orange-to-vivid-red
+        ) !important;
+      }
+      .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+        background: var(
+          --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray
+        ) !important;
+      }
+      .has-cool-to-warm-spectrum-gradient-background {
+        background: var(
+          --wp--preset--gradient--cool-to-warm-spectrum
+        ) !important;
+      }
+      .has-blush-light-purple-gradient-background {
+        background: var(--wp--preset--gradient--blush-light-purple) !important;
+      }
+      .has-blush-bordeaux-gradient-background {
+        background: var(--wp--preset--gradient--blush-bordeaux) !important;
+      }
+      .has-luminous-dusk-gradient-background {
+        background: var(--wp--preset--gradient--luminous-dusk) !important;
+      }
+      .has-pale-ocean-gradient-background {
+        background: var(--wp--preset--gradient--pale-ocean) !important;
+      }
+      .has-electric-grass-gradient-background {
+        background: var(--wp--preset--gradient--electric-grass) !important;
+      }
+      .has-midnight-gradient-background {
+        background: var(--wp--preset--gradient--midnight) !important;
+      }
+      .has-small-font-size {
+        font-size: var(--wp--preset--font-size--small) !important;
+      }
+      .has-medium-font-size {
+        font-size: var(--wp--preset--font-size--medium) !important;
+      }
+      .has-large-font-size {
+        font-size: var(--wp--preset--font-size--large) !important;
+      }
+      .has-x-large-font-size {
+        font-size: var(--wp--preset--font-size--x-large) !important;
+      }
+      :root :where(.wp-block-pullquote) {
+        font-size: 1.5em;
+        line-height: 1.6;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="wp-components-css"
+      href="https://duckyduck.io/wp-includes/css/dist/components/style.min.css?ver=039259fff0351bc4450ac90ed36cad7d"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="godaddy-styles-css"
+      href="https://duckyduck.io/wp-content/mu-plugins/vendor/wpex/godaddy-launch/includes/Dependencies/GoDaddy/Styles/build/latest.css?ver=2.0.2"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="hello-elementor-css"
+      href="https://duckyduck.io/wp-content/themes/hello-elementor/style.min.css?ver=3.2.1"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="hello-elementor-theme-style-css"
+      href="https://duckyduck.io/wp-content/themes/hello-elementor/theme.min.css?ver=3.2.1"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="hello-elementor-header-footer-css"
+      href="https://duckyduck.io/wp-content/themes/hello-elementor/header-footer.min.css?ver=3.2.1"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-frontend-css"
+      href="https://duckyduck.io/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.26.0"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-post-13-css"
+      href="https://duckyduck.io/wp-content/uploads/elementor/css/post-13.css?ver=1734494282"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-pro-css"
+      href="https://duckyduck.io/wp-content/plugins/elementor-pro/assets/css/frontend.min.css?ver=3.23.2"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="widget-social-icons-css"
+      href="https://duckyduck.io/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=3.26.0"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="e-apple-webkit-css"
+      href="https://duckyduck.io/wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css?ver=3.26.0"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="widget-heading-css"
+      href="https://duckyduck.io/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.26.0"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="widget-image-css"
+      href="https://duckyduck.io/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.26.0"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="widget-spacer-css"
+      href="https://duckyduck.io/wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=3.26.0"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="widget-text-editor-css"
+      href="https://duckyduck.io/wp-content/plugins/elementor/assets/css/widget-text-editor.min.css?ver=3.26.0"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="widget-video-css"
+      href="https://duckyduck.io/wp-content/plugins/elementor/assets/css/widget-video.min.css?ver=3.26.0"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="widget-nested-accordion-css"
+      href="https://duckyduck.io/wp-content/plugins/elementor/assets/css/widget-nested-accordion.min.css?ver=3.26.0"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="widget-icon-list-css"
+      href="https://duckyduck.io/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.26.0"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-post-977-css"
+      href="https://duckyduck.io/wp-content/uploads/elementor/css/post-977.css?ver=1734494400"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-post-662-css"
+      href="https://duckyduck.io/wp-content/uploads/elementor/css/post-662.css?ver=1734494282"
+      media="all"
+    />
+    <script
+      src="https://duckyduck.io/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+      id="jquery-core-js"
+    ></script>
+    <script
+      src="https://duckyduck.io/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+      id="jquery-migrate-js"
+    ></script>
+
+    <!-- Google tag (gtag.js) snippet added by Site Kit -->
+
+    <!-- Google Analytics snippet added by Site Kit -->
+    <script
+      src="https://www.googletagmanager.com/gtag/js?id=GT-WV3GG67S"
+      id="google_gtagjs-js"
+      async
+    ></script>
+    <script id="google_gtagjs-js-after">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("set", "linker", { domains: ["duckyduck.io"] });
+      gtag("js", new Date());
+      gtag("set", "developer_id.dZTNiMT", true);
+      gtag("config", "GT-WV3GG67S");
+    </script>
+
+    <!-- End Google tag (gtag.js) snippet added by Site Kit -->
+    <link rel="https://api.w.org/" href="https://duckyduck.io/wp-json/" />
+    <link
+      rel="alternate"
+      title="JSON"
+      type="application/json"
+      href="https://duckyduck.io/wp-json/wp/v2/pages/977"
+    />
+    <link rel="canonical" href="https://duckyduck.io/" />
+    <link
+      rel="alternate"
+      title="oEmbed (JSON)"
+      type="application/json+oembed"
+      href="https://duckyduck.io/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fduckyduck.io%2F"
+    />
+    <link
+      rel="alternate"
+      title="oEmbed (XML)"
+      type="text/xml+oembed"
+      href="https://duckyduck.io/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fduckyduck.io%2F&#038;format=xml"
+    />
+    <!-- Tiktok Pixel Code -->
+    <script>
+      !(function (w, d, t) {
+        w.TiktokAnalyticsObject = t;
+        var ttq = (w[t] = w[t] || []);
+        (ttq.methods = [
+          "page",
+          "track",
+          "identify",
+          "instances",
+          "debug",
+          "on",
+          "off",
+          "once",
+          "ready",
+          "alias",
+          "group",
+          "enableCookie",
+          "disableCookie",
+        ]),
+          (ttq.setAndDefer = function (t, e) {
+            t[e] = function () {
+              t.push([e].concat(Array.prototype.slice.call(arguments, 0)));
+            };
+          });
+        for (var i = 0; i < ttq.methods.length; i++)
+          ttq.setAndDefer(ttq, ttq.methods[i]);
+        (ttq.instance = function (t) {
+          for (var e = ttq._i[t] || [], n = 0; n < ttq.methods.length; n++)
+            ttq.setAndDefer(e, ttq.methods[n]);
+          return e;
+        }),
+          (ttq.load = function (e, n) {
+            var i = "https://analytics.tiktok.com/i18n/pixel/events.js";
+            (ttq._i = ttq._i || {}),
+              (ttq._i[e] = []),
+              (ttq._i[e]._u = i),
+              (ttq._t = ttq._t || {}),
+              (ttq._t[e] = +new Date()),
+              (ttq._o = ttq._o || {}),
+              (ttq._o[e] = n || {});
+            var o = document.createElement("script");
+            (o.type = "text/javascript"),
+              (o.async = !0),
+              (o.src = i + "?sdkid=" + e + "&lib=" + t);
+            var a = document.getElementsByTagName("script")[0];
+            a.parentNode.insertBefore(o, a);
+          });
+        ttq.load("CC7VT33C77U9AHPDOVUG");
+        ttq.page();
+      })(window, document, "ttq");
+    </script>
+    <script>
+      ttq.track("Browse");
+    </script>
+    <!-- End Tiktok Pixel Code -->
+    <meta name="generator" content="Site Kit by Google 1.142.0" />
+    <meta
+      name="generator"
+      content="Elementor 3.26.0; features: e_font_icon_svg, additional_custom_breakpoints, e_element_cache; settings: css_print_method-external, google_font-enabled, font_display-swap"
+    />
+    <style>
+      .e-con.e-parent:nth-of-type(n + 4):not(.e-lazyloaded):not(.e-no-lazyload),
+      .e-con.e-parent:nth-of-type(n + 4):not(.e-lazyloaded):not(.e-no-lazyload)
+        * {
+        background-image: none !important;
+      }
+      @media screen and (max-height: 1024px) {
+        .e-con.e-parent:nth-of-type(n + 3):not(.e-lazyloaded):not(
+            .e-no-lazyload
+          ),
+        .e-con.e-parent:nth-of-type(n + 3):not(.e-lazyloaded):not(
+            .e-no-lazyload
+          )
+          * {
+          background-image: none !important;
+        }
+      }
+      @media screen and (max-height: 640px) {
+        .e-con.e-parent:nth-of-type(n + 2):not(.e-lazyloaded):not(
+            .e-no-lazyload
+          ),
+        .e-con.e-parent:nth-of-type(n + 2):not(.e-lazyloaded):not(
+            .e-no-lazyload
+          )
+          * {
+          background-image: none !important;
+        }
+      }
+    </style>
+    <link
+      rel="icon"
+      href="https://duckyduck.io/wp-content/uploads/2024/08/cropped-Duck-head-1-1-1-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      href="https://duckyduck.io/wp-content/uploads/2024/08/cropped-Duck-head-1-1-1-192x192.png"
+      sizes="192x192"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="https://duckyduck.io/wp-content/uploads/2024/08/cropped-Duck-head-1-1-1-180x180.png"
+    />
+    <meta
+      name="msapplication-TileImage"
+      content="https://duckyduck.io/wp-content/uploads/2024/08/cropped-Duck-head-1-1-1-270x270.png"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+  </head>
+  <body
+    data-rsssl="1"
+    class="home page-template page-template-elementor_canvas page page-id-977 wp-embed-responsive elementor-default elementor-template-canvas elementor-kit-13 elementor-page elementor-page-977"
+  >
+    <div
+      data-elementor-type="wp-page"
+      data-elementor-id="977"
+      class="elementor elementor-977"
+      data-elementor-post-type="page"
+    >
+      <div
+        class="elementor-element elementor-element-4f94672 e-flex e-con-boxed e-con e-parent"
+        data-id="4f94672"
+        data-element_type="container"
+        data-settings='{"background_background":"classic"}'
+      >
+        <div class="e-con-inner">
+          <div
+            class="elementor-element elementor-element-e4c0830 e-con-full e-flex e-con e-child"
+            data-id="e4c0830"
+            data-element_type="container"
+            data-settings='{"background_background":"classic","sticky":"top","sticky_offset_mobile":20,"sticky_on":["desktop","tablet","mobile"],"sticky_offset":0,"sticky_effects_offset":0}'
+          >
+            <div
+              class="elementor-element elementor-element-080ea85 e-con-full e-flex e-con e-child"
+              data-id="080ea85"
+              data-element_type="container"
+              data-settings='{"background_background":"classic"}'
+            >
+              <div
+                class="elementor-element elementor-element-1a71a7e e-full elementor-hidden-tablet elementor-hidden-mobile e-n-menu-layout-horizontal e-n-menu-tablet elementor-widget elementor-widget-n-menu"
+                data-id="1a71a7e"
+                data-element_type="widget"
+                data-settings='{"content_width":"full","menu_items":[{"item_title":"Home","_id":"426780b","item_link":{"url":"#","is_external":"","nofollow":"","custom_attributes":""},"item_dropdown_content":"no","item_icon":{"value":"","library":""},"item_icon_active":null,"element_id":""},{"item_title":"How To Buy","_id":"daad680","item_link":{"url":"#buy","is_external":"","nofollow":"","custom_attributes":""},"item_dropdown_content":"no","item_icon":{"value":"","library":""},"item_icon_active":null,"element_id":""},{"item_title":"Memes","_id":"92f9ea1","item_link":{"url":"#memes","is_external":"","nofollow":"","custom_attributes":""},"item_dropdown_content":"no","item_icon":{"value":"","library":""},"item_icon_active":null,"element_id":""},{"item_title":"Whitepaper","_id":"3162441","item_link":{"url":"https:\/\/duckyduck.io\/wp-content\/uploads\/2024\/08\/DuckyWhitePaper_EN-1.pdf","is_external":"","nofollow":"","custom_attributes":""},"item_dropdown_content":"no","item_icon":{"value":"","library":""},"item_icon_active":null,"element_id":""}],"item_layout":"horizontal","open_on":"hover","open_animation":"none","horizontal_scroll":"disable","breakpoint_selector":"tablet","menu_item_title_distance_from_content":{"unit":"px","size":0,"sizes":[]},"menu_item_title_distance_from_content_tablet":{"unit":"px","size":"","sizes":[]},"menu_item_title_distance_from_content_mobile":{"unit":"px","size":"","sizes":[]}}'
+                data-widget_type="mega-menu.default"
+              >
+                <div class="elementor-widget-container">
+                  <nav
+                    class="e-n-menu"
+                    data-widget-number="277"
+                    aria-label="Menu"
+                  >
+                    <button
+                      class="e-n-menu-toggle"
+                      id="menu-toggle-277"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                      aria-controls="menubar-277"
+                      aria-label="Menu Toggle"
+                    >
+                      <span class="e-n-menu-toggle-icon e-open">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="15"
+                          height="15"
+                          viewBox="0 0 15 15"
+                          fill="none"
+                        >
+                          <path
+                            d="M7.5 0C3.36437 0 0 3.36437 0 7.5C0 11.6356 3.36437 15 7.5 15C11.6356 15 15 11.6356 15 7.5C15 3.36437 11.6356 0 7.5 0ZM10 10.625H5C4.655 10.625 4.375 10.345 4.375 10C4.375 9.655 4.655 9.375 5 9.375H10C10.345 9.375 10.625 9.655 10.625 10C10.625 10.345 10.345 10.625 10 10.625ZM10 8.125H5C4.655 8.125 4.375 7.845 4.375 7.5C4.375 7.155 4.655 6.875 5 6.875H10C10.345 6.875 10.625 7.155 10.625 7.5C10.625 7.845 10.345 8.125 10 8.125ZM10 5.625H5C4.655 5.625 4.375 5.345 4.375 5C4.375 4.655 4.655 4.375 5 4.375H10C10.345 4.375 10.625 4.655 10.625 5C10.625 5.345 10.345 5.625 10 5.625Z"
+                            fill="#FA63C6"
+                          ></path>
+                        </svg>
+                      </span>
+                      <span class="e-n-menu-toggle-icon e-close">
+                        <svg
+                          class="e-font-icon-svg e-eicon-close"
+                          viewBox="0 0 1000 1000"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M742 167L500 408 258 167C246 154 233 150 217 150 196 150 179 158 167 167 154 179 150 196 150 212 150 229 154 242 171 254L408 500 167 742C138 771 138 800 167 829 196 858 225 858 254 829L496 587 738 829C750 842 767 846 783 846 800 846 817 842 829 829 842 817 846 804 846 783 846 767 842 750 829 737L588 500 833 258C863 229 863 200 833 171 804 137 775 137 742 167Z"
+                          ></path>
+                        </svg>
+                      </span>
+                    </button>
+                    <div
+                      class="e-n-menu-wrapper"
+                      id="menubar-277"
+                      aria-labelledby="menu-toggle-277"
+                    >
+                      <ul class="e-n-menu-heading">
+                        <li class="e-n-menu-item">
+                          <div
+                            id="e-n-menu-title-2771"
+                            class="e-n-menu-title e-anchor"
+                          >
+                            <a
+                              class="e-n-menu-title-container e-focus e-link"
+                              href="#"
+                              aria-current="page"
+                            >
+                              <span class="e-n-menu-title-text"> Home </span>
+                            </a>
+                          </div>
+                        </li>
+                        <li class="e-n-menu-item">
+                          <div
+                            id="e-n-menu-title-2772"
+                            class="e-n-menu-title e-anchor"
+                          >
+                            <a
+                              class="e-n-menu-title-container e-focus e-link"
+                              href="#buy"
+                              aria-current="page"
+                            >
+                              <span class="e-n-menu-title-text">
+                                How To Buy
+                              </span>
+                            </a>
+                          </div>
+                        </li>
+                        <li class="e-n-menu-item">
+                          <div
+                            id="e-n-menu-title-2773"
+                            class="e-n-menu-title e-anchor"
+                          >
+                            <a
+                              class="e-n-menu-title-container e-focus e-link"
+                              href="#memes"
+                              aria-current="page"
+                            >
+                              <span class="e-n-menu-title-text"> Memes </span>
+                            </a>
+                          </div>
+                        </li>
+                        <li class="e-n-menu-item">
+                          <div id="e-n-menu-title-2774" class="e-n-menu-title">
+                            <a
+                              class="e-n-menu-title-container e-focus e-link"
+                              href="https://duckyduck.io/wp-content/uploads/2024/08/DuckyWhitePaper_EN-1.pdf"
+                            >
+                              <span class="e-n-menu-title-text">
+                                Whitepaper
+                              </span>
+                            </a>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+              <div
+                class="elementor-element elementor-element-455b042 elementor-hidden-desktop elementor-view-default elementor-widget elementor-widget-icon"
+                data-id="455b042"
+                data-element_type="widget"
+                data-widget_type="icon.default"
+              >
+                <div class="elementor-widget-container">
+                  <div class="elementor-icon-wrapper">
+                    <a
+                      class="elementor-icon"
+                      href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjY2MiIsInRvZ2dsZSI6ZmFsc2V9"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="15"
+                        height="15"
+                        viewBox="0 0 15 15"
+                        fill="none"
+                      >
+                        <path
+                          d="M7.5 0C3.36437 0 0 3.36437 0 7.5C0 11.6356 3.36437 15 7.5 15C11.6356 15 15 11.6356 15 7.5C15 3.36437 11.6356 0 7.5 0ZM10 10.625H5C4.655 10.625 4.375 10.345 4.375 10C4.375 9.655 4.655 9.375 5 9.375H10C10.345 9.375 10.625 9.655 10.625 10C10.625 10.345 10.345 10.625 10 10.625ZM10 8.125H5C4.655 8.125 4.375 7.845 4.375 7.5C4.375 7.155 4.655 6.875 5 6.875H10C10.345 6.875 10.625 7.155 10.625 7.5C10.625 7.845 10.345 8.125 10 8.125ZM10 5.625H5C4.655 5.625 4.375 5.345 4.375 5C4.375 4.655 4.655 4.375 5 4.375H10C10.345 4.375 10.625 4.655 10.625 5C10.625 5.345 10.345 5.625 10 5.625Z"
+                          fill="#FA63C6"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="elementor-element elementor-element-266076b e-con-full e-flex e-con e-child"
+              data-id="266076b"
+              data-element_type="container"
+            >
+              <div
+                class="elementor-element elementor-element-e51393f elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons"
+                data-id="e51393f"
+                data-element_type="widget"
+                data-widget_type="social-icons.default"
+              >
+                <div class="elementor-widget-container">
+                  <div class="elementor-social-icons-wrapper elementor-grid">
+                    <span class="elementor-grid-item">
+                      <a
+                        class="elementor-icon elementor-social-icon elementor-social-icon-telegram elementor-repeater-item-1070626"
+                        href="https://t.me/DuckyDuckClub"
+                        target="_blank"
+                      >
+                        <span class="elementor-screen-only">Telegram</span>
+                        <svg
+                          class="e-font-icon-svg e-fab-telegram"
+                          viewBox="0 0 496 512"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"
+                          ></path>
+                        </svg>
+                      </a>
+                    </span>
+                    <span class="elementor-grid-item">
+                      <a
+                        class="elementor-icon elementor-social-icon elementor-social-icon-x-twitter elementor-repeater-item-d5ba7b5"
+                        href="https://x.com/"
+                        target="_blank"
+                      >
+                        <span class="elementor-screen-only">X-twitter</span>
+                        <svg
+                          class="e-font-icon-svg e-fab-x-twitter"
+                          viewBox="0 0 512 512"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+                          ></path>
+                        </svg>
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="elementor-element elementor-element-41d30b6 elementor-widget elementor-widget-html"
+                data-id="41d30b6"
+                data-element_type="widget"
+                data-widget_type="html.default"
+              >
+                <div class="elementor-widget-container">
+                  <div class="dropdown">
+                    <button class="dropbtn">
+                      <img
+                        decoding="async"
+                        src="https://duckyduck.io/wp-content/uploads/2024/07/USA-1.webp"
+                        class="selected-flag"
+                        alt="Selected Flag"
+                      />
+                    </button>
+                    <div class="dropdown-content">
+                      <img
+                        decoding="async"
+                        src="https://duckyduck.io/wp-content/uploads/2024/07/USA-1.webp"
+                        class="flag-icon"
+                        data-url="https://duckyduck.io/"
+                        alt="USA"
+                      />
+                      <img
+                        decoding="async"
+                        src="https://duckyduck.io/wp-content/uploads/2024/07/Chinese-2.webp"
+                        class="flag-icon"
+                        data-url="https://duckyduck.io/ch/"
+                        alt="China"
+                      />
+                      <img
+                        decoding="async"
+                        src="https://duckyduck.io/wp-content/uploads/2024/07/Japanese-1.webp"
+                        class="flag-icon"
+                        data-url="https://duckyduck.io/jp/"
+                        alt="Japan"
+                      />
+                      <img
+                        decoding="async"
+                        src="https://duckyduck.io/wp-content/uploads/2024/08/Thailand-1.webp"
+                        class="flag-icon"
+                        data-url="https://duckyduck.io/th/"
+                        alt="Thailand"
+                      />
+                    </div>
+                  </div>
+
+                  <style>
+                    /* Dropdown Button */
+                    .dropbtn {
+                      background-color: rgba(29, 29, 29, 0.3);
+                      color: rgba(29, 29, 29, 0.3);
+                      padding: 8px;
+                      font-size: 8px;
+                      min-width: 40px;
+                      border: none;
+                      border-radius: 2px;
+                      cursor: pointer;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                    }
+
+                    /* The container <div> - needed to position the dropdown content */
+                    .dropdown {
+                      position: relative;
+                      display: inline-block;
+                    }
+
+                    /* Dropdown Content (Hidden by Default) */
+                    .dropdown-content {
+                      display: none;
+                      position: absolute;
+                      background-color: rgba(29, 29, 29, 0.3);
+                      min-width: 40px;
+                      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                      border-radius: 1px;
+                      z-index: 1;
+                      flex-direction: column;
+                    }
+
+                    /* Links inside the dropdown */
+                    .dropdown-content img {
+                      margin-top: -8px;
+                      width: 20px;
+                      height: 20px;
+                      border-radius: 50%;
+                      margin: 10px;
+                      cursor: pointer;
+                    }
+
+                    /* Show the dropdown menu on hover */
+                    .dropdown:hover .dropdown-content {
+                      display: flex;
+                    }
+
+                    /* Change color of dropdown links on hover */
+                    .dropdown-content img:hover {
+                      background-color: #ddd;
+                    }
+
+                    /* Selected flag in button */
+                    .selected-flag {
+                      width: 20px;
+                      height: 20px;
+                      border-radius: 50%;
+                    }
+                  </style>
+
+                  <script defer>
+                    document.addEventListener("DOMContentLoaded", function () {
+                      var flags = document.querySelectorAll(".flag-icon");
+                      var selectedFlag =
+                        document.querySelector(".selected-flag");
+
+                      flags.forEach(function (flag) {
+                        flag.addEventListener("click", function () {
+                          var selectedPage = flag.getAttribute("data-url");
+                          var selectedSrc = flag.getAttribute("src");
+                          var selectedAlt = flag.getAttribute("alt");
+                          if (selectedPage) {
+                            selectedFlag.src = selectedSrc;
+                            selectedFlag.alt = selectedAlt;
+                            window.location.href = selectedPage;
+                          }
+                        });
+                      });
+                    });
+                  </script>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="elementor-element elementor-element-d54a085 e-con-full e-flex e-con e-child"
+            data-id="d54a085"
+            data-element_type="container"
+          >
+            <div
+              class="elementor-element elementor-element-c98c6da elementor-widget elementor-widget-heading"
+              data-id="c98c6da"
+              data-element_type="widget"
+              data-widget_type="heading.default"
+            >
+              <div class="elementor-widget-container">
+                <h2 class="elementor-heading-title elementor-size-default">
+                  Hi I'm
+                </h2>
+              </div>
+            </div>
+            <div
+              class="elementor-element elementor-element-8fe2ae2 elementor-widget elementor-widget-image"
+              data-id="8fe2ae2"
+              data-element_type="widget"
+              data-widget_type="image.default"
+            >
+              <div class="elementor-widget-container">
+                <img
+                  fetchpriority="high"
+                  decoding="async"
+                  width="800"
+                  height="488"
+                  src="https://duckyduck.io/wp-content/uploads/2024/07/ducky-1-1024x625.png"
+                  class="attachment-large size-large wp-image-170"
+                  alt=""
+                  srcset="
+                    https://duckyduck.io/wp-content/uploads/2024/07/ducky-1-1024x625.png 1024w,
+                    https://duckyduck.io/wp-content/uploads/2024/07/ducky-1-300x183.png   300w,
+                    https://duckyduck.io/wp-content/uploads/2024/07/ducky-1-768x469.png   768w,
+                    https://duckyduck.io/wp-content/uploads/2024/07/ducky-1-1536x937.png 1536w,
+                    https://duckyduck.io/wp-content/uploads/2024/07/ducky-1.png          1560w
+                  "
+                  sizes="(max-width: 800px) 100vw, 800px"
+                />
+              </div>
+            </div>
+            <div
+              class="elementor-element elementor-element-f43b161 e-con-full e-flex e-con e-child"
+              data-id="f43b161"
+              data-element_type="container"
+            >
+              <div
+                class="elementor-element elementor-element-7c476de elementor-widget__width-auto e-transform elementor-view-default elementor-widget elementor-widget-icon"
+                data-id="7c476de"
+                data-element_type="widget"
+                data-settings='{"_transform_rotateZ_effect_hover":{"unit":"px","size":-11,"sizes":[]},"_transform_rotateZ_effect_hover_tablet":{"unit":"deg","size":"","sizes":[]},"_transform_rotateZ_effect_hover_mobile":{"unit":"deg","size":"","sizes":[]}}'
+                data-widget_type="icon.default"
+              >
+                <div class="elementor-widget-container">
+                  <div class="elementor-icon-wrapper">
+                    <a
+                      class="elementor-icon"
+                      href="https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x00000000000000000000000000000000000000(buy)"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="210"
+                        height="78"
+                        viewBox="0 0 210 78"
+                        fill="none"
+                      >
+                        <rect
+                          x="10"
+                          y="8"
+                          width="200"
+                          height="70"
+                          rx="4"
+                          fill="#FA63C6"
+                        ></rect>
+                        <rect
+                          width="200"
+                          height="70"
+                          rx="4"
+                          fill="white"
+                        ></rect>
+                        <path
+                          d="M87.3409 41.5939C87.3409 42.9449 87.0608 44.197 86.5007 45.3503C85.9405 46.5036 85.1826 47.558 84.227 48.5136C83.2714 49.4363 82.1511 50.26 80.866 50.985C79.6139 51.6769 78.2793 52.2701 76.8624 52.7643C75.4785 53.2256 74.0451 53.5881 72.5623 53.8517C71.1124 54.0824 69.712 54.1977 68.361 54.1977C67.1418 54.1977 66.005 54.0989 64.9506 53.9011C66.5322 48.1347 67.7844 42.3353 68.707 36.5029C69.6626 30.6376 70.5688 24.7393 71.4255 18.8081C73.1389 18.4457 74.9183 18.1326 76.7636 17.869C78.6088 17.5725 80.52 17.4242 82.4971 17.4242C83.3209 17.4242 84.1941 17.523 85.1167 17.7207C86.0393 17.9184 86.8796 18.2809 87.6375 18.8081C88.3953 19.3353 89.0214 20.0273 89.5157 20.8841C90.0429 21.7408 90.3065 22.8282 90.3065 24.1462C90.3065 25.3984 90.0923 26.5681 89.664 27.6555C89.2686 28.7429 88.7413 29.7314 88.0823 30.6211C87.4562 31.5108 86.7313 32.2852 85.9075 32.9442C85.0838 33.5703 84.2435 34.0481 83.3868 34.3776C83.8151 34.6082 84.26 34.9377 84.7213 35.3661C85.1826 35.7945 85.611 36.3052 86.0064 36.8983C86.4018 37.4585 86.7148 38.134 86.9455 38.9248C87.2091 39.7157 87.3409 40.6053 87.3409 41.5939ZM76.0222 36.4535C75.8904 37.2443 75.7586 37.9528 75.6268 38.5788C75.5279 39.172 75.4291 39.7486 75.3302 40.3088C75.2313 40.8689 75.116 41.4621 74.9842 42.0881C74.8854 42.6813 74.77 43.3897 74.6382 44.2135C75.2643 44.1476 75.9727 44.0323 76.7636 43.8675C77.5544 43.7028 78.3123 43.4556 79.0372 43.1261C79.7621 42.7636 80.3717 42.3023 80.866 41.7422C81.3603 41.149 81.6074 40.4406 81.6074 39.6168C81.6074 39.0237 81.4426 38.5294 81.1131 38.134C80.8166 37.7386 80.4212 37.4091 79.9269 37.1455C79.4656 36.8819 78.9548 36.7006 78.3947 36.6018C77.8345 36.47 77.3073 36.4041 76.813 36.4041C76.6482 36.4041 76.5 36.4041 76.3682 36.4041C76.2693 36.4041 76.154 36.4205 76.0222 36.4535ZM78.2464 24.4922C78.1805 24.8547 78.0981 25.283 77.9992 25.7773C77.9333 26.2716 77.851 26.7988 77.7521 27.359C77.6533 27.8862 77.5379 28.4134 77.4061 28.9406C77.3073 29.4678 77.2249 29.9292 77.159 30.3246C77.8839 30.1928 78.6088 30.0115 79.3338 29.7809C80.0587 29.5502 80.7012 29.3031 81.2614 29.0395C81.8545 28.7429 82.3159 28.4299 82.6454 28.1004C83.0078 27.7708 83.1891 27.4084 83.1891 27.013C83.1891 26.5187 83.0408 26.1233 82.7442 25.8267C82.4477 25.4972 82.0522 25.2336 81.558 25.0359C81.0967 24.8382 80.6024 24.7064 80.0752 24.6405C79.5809 24.5416 79.1361 24.4922 78.7406 24.4922H78.2464ZM107.692 44.3618C107.23 46.24 106.571 47.8381 105.715 49.1562C104.891 50.4742 103.902 51.5616 102.749 52.4183C101.629 53.2751 100.426 53.9011 99.1408 54.2966C97.8557 54.692 96.5706 54.8897 95.2855 54.8897C94.5276 54.8897 93.7533 54.7579 92.9624 54.4943C92.1716 54.2636 91.4632 53.9011 90.8371 53.4069C90.211 52.9126 89.6838 52.2865 89.2554 51.5287C88.86 50.7708 88.6623 49.8811 88.6623 48.8596C88.6623 48.7278 88.6623 48.596 88.6623 48.4642C88.6623 48.3324 88.6788 48.2006 88.7117 48.0688C88.8435 46.7178 89.0577 45.0867 89.3543 43.1755C89.6508 41.2644 89.9639 39.2708 90.2934 37.1949C90.6229 35.119 90.9854 33.043 91.3808 30.9671C91.7762 28.8582 92.1222 26.9471 92.4187 25.2336C92.7483 23.5201 93.0283 22.1032 93.259 20.9829C93.4897 19.8296 93.6379 19.1212 93.7038 18.8576C94.3958 18.7916 95.2196 18.7093 96.1752 18.6104C97.1308 18.5116 98.0204 18.4292 98.8442 18.3633C99.8657 18.2644 100.871 18.1656 101.859 18.0667C101.003 22.0538 100.245 25.662 99.5856 28.8912C99.2891 30.2751 98.9925 31.6591 98.6959 33.043C98.4323 34.427 98.1687 35.6956 97.9051 36.8489C97.6745 38.0022 97.4603 39.0072 97.2626 39.8639C97.0978 40.6877 96.9495 41.3632 96.8177 41.8904C96.7189 42.4177 96.5871 43.0932 96.4223 43.9169C96.2905 44.7078 96.2246 45.4327 96.2246 46.0917C96.2246 46.6189 96.3564 47.0638 96.62 47.4262C96.8836 47.7557 97.2131 47.9205 97.6086 47.9205C98.1687 47.9205 98.63 47.7063 98.9925 47.278C99.355 46.8166 99.6515 46.2729 99.8822 45.6469C100.146 45.0208 100.327 44.3947 100.426 43.7687C100.558 43.1096 100.673 42.5989 100.772 42.2364C100.97 41.2808 101.184 40.2264 101.414 39.0731C101.678 37.8869 101.925 36.6677 102.156 35.4155C102.419 34.1304 102.667 32.8289 102.897 31.5108C103.161 30.1928 103.408 28.9077 103.639 27.6555C104.199 24.7558 104.742 21.7573 105.27 18.6598L112.783 18.1656C112.783 18.1656 112.7 18.5939 112.535 19.4507C112.371 20.3074 112.157 21.4442 111.893 22.8611C111.629 24.278 111.333 25.8926 111.003 27.7049C110.707 29.5173 110.361 31.412 109.965 33.389C109.57 35.3331 109.174 37.2608 108.779 39.172C108.417 41.0502 108.054 42.7801 107.692 44.3618ZM112.632 53.2586L114.905 43.3238C114.905 41.9069 114.872 40.3747 114.806 38.7271C114.773 37.0466 114.708 35.3661 114.609 33.6856C114.51 32.0051 114.411 30.3905 114.312 28.8418C114.213 27.2601 114.131 25.8762 114.065 24.6899C113.999 23.4707 113.933 22.4987 113.867 21.7737C113.801 21.0488 113.768 20.6863 113.768 20.6863L121.825 17.6219V23.652C121.825 24.4757 121.825 25.316 121.825 26.1727C121.825 27.0294 121.808 27.8697 121.776 28.6935C121.776 29.5173 121.776 30.2916 121.776 31.0165C121.776 31.7415 121.776 32.3511 121.776 32.8453C122.204 31.725 122.715 30.341 123.308 28.6935C123.934 27.0459 124.51 25.4478 125.038 23.8991C125.664 22.0868 126.306 20.1756 126.965 18.1656L134.627 19.8955C133.21 22.7293 131.826 25.5466 130.475 28.3475C129.914 29.5667 129.321 30.8353 128.695 32.1534C128.069 33.4385 127.443 34.74 126.817 36.0581C126.191 37.3432 125.581 38.5953 124.988 39.8145C124.395 41.0337 123.851 42.1705 123.357 43.225C123.192 44.0817 122.978 45.0208 122.715 46.0423C122.484 47.0638 122.253 48.0358 122.023 48.9585C121.726 50.0459 121.413 51.1332 121.084 52.2206L112.632 53.2586Z"
+                          fill="black"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="elementor-element elementor-element-1d9aae1 elementor-widget elementor-widget-image"
+              data-id="1d9aae1"
+              data-element_type="widget"
+              data-widget_type="image.default"
+            >
+              <div class="elementor-widget-container">
+                <img
+                  decoding="async"
+                  width="800"
+                  height="659"
+                  src="https://duckyduck.io/wp-content/uploads/2024/08/Main-Duck-1-1-1024x844.webp"
+                  class="attachment-large size-large wp-image-1329"
+                  alt="Main Ducky Duck"
+                  srcset="
+                    https://duckyduck.io/wp-content/uploads/2024/08/Main-Duck-1-1-1024x844.webp  1024w,
+                    https://duckyduck.io/wp-content/uploads/2024/08/Main-Duck-1-1-300x247.webp    300w,
+                    https://duckyduck.io/wp-content/uploads/2024/08/Main-Duck-1-1-768x633.webp    768w,
+                    https://duckyduck.io/wp-content/uploads/2024/08/Main-Duck-1-1-1536x1265.webp 1536w,
+                    https://duckyduck.io/wp-content/uploads/2024/08/Main-Duck-1-1.webp           1941w
+                  "
+                  sizes="(max-width: 800px) 100vw, 800px"
+                />
+              </div>
+            </div>
+            <div
+              class="elementor-element elementor-element-983f7a7 elementor-widget elementor-widget-image"
+              data-id="983f7a7"
+              data-element_type="widget"
+              data-widget_type="image.default"
+            >
+              <div class="elementor-widget-container">
+                <img
+                  decoding="async"
+                  width="194"
+                  height="195"
+                  src="https://duckyduck.io/wp-content/uploads/2024/07/Rotating-Icon.png"
+                  class="attachment-large size-large wp-image-702"
+                  alt=""
+                  srcset="
+                    https://duckyduck.io/wp-content/uploads/2024/07/Rotating-Icon.png         194w,
+                    https://duckyduck.io/wp-content/uploads/2024/07/Rotating-Icon-150x150.png 150w
+                  "
+                  sizes="(max-width: 194px) 100vw, 194px"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="elementor-element elementor-element-53c9c4c gradient-blur-container e-flex e-con-boxed e-con e-parent"
+        data-id="53c9c4c"
+        data-element_type="container"
+        id="gradient-blur-container"
+        data-settings='{"background_background":"classic"}'
+      >
+        <!-- <div class="e-con-inner">
+          <div
+            class="elementor-element elementor-element-5b20197 elementor-widget elementor-widget-n-carousel"
+            data-id="5b20197"
+            data-element_type="widget"
+            data-settings='{"carousel_items":[{"slide_title":"Slide #3","_id":"2350cc0"},{"slide_title":"Slide #3","_id":"c2465f7"},{"slide_title":"Slide #3","_id":"e27b23d"},{"slide_title":"Slide #3","_id":"0aeff82"},{"slide_title":"Slide #3","_id":"575462d"}],"slides_to_show":"5","slides_to_show_mobile":"5","autoplay_speed":0,"speed":2500,"slides_to_show_tablet":"2","autoplay":"yes","infinite":"yes","offset_sides":"none","image_spacing_custom":{"unit":"px","size":10,"sizes":[]},"image_spacing_custom_tablet":{"unit":"px","size":"","sizes":[]},"image_spacing_custom_mobile":{"unit":"px","size":"","sizes":[]}}'
+            data-widget_type="nested-carousel.default"
+          >
+            <div class="elementor-widget-container">
+              <div class="e-n-carousel swiper" dir="ltr">
+                <div class="swiper-wrapper" aria-live="off">
+                  <div
+                    class="swiper-slide"
+                    data-slide="1"
+                    role="group"
+                    aria-roledescription="slide"
+                    aria-label="1 of 5"
+                  >
+                    <div
+                      class="elementor-element elementor-element-c8159cb e-flex e-con-boxed e-con e-child"
+                      data-id="c8159cb"
+                      data-element_type="container"
+                    >
+                      <div class="e-con-inner">
+                        <div
+                          class="elementor-element elementor-element-4905194 elementor-view-default elementor-widget elementor-widget-icon"
+                          data-id="4905194"
+                          data-element_type="widget"
+                          data-widget_type="icon.default"
+                        >
+                          <div class="elementor-widget-container">
+                            <div class="elementor-icon-wrapper">
+                              <div class="elementor-icon">
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="87"
+                                  height="103"
+                                  viewBox="0 0 87 103"
+                                  fill="none"
+                                >
+                                  <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M52.6235 36.4819C55.7607 34.9215 59.7524 32.6246 63.7489 29.4776C64.5916 31.2231 64.6839 32.7463 64.2497 33.9763C63.9421 34.8431 63.3623 35.597 62.6 36.1968C61.7744 36.845 60.7434 37.317 59.6037 37.572C57.4412 38.058 54.9163 37.7742 52.6235 36.4819ZM53.1674 52.4696L57.3202 54.8624C48.841 59.6028 46.5359 68.4052 43.7978 76.9787C41.0599 68.4052 38.7545 59.6028 30.2757 54.8624L34.4284 52.4696C34.8302 52.3182 35.1735 52.0438 35.4093 51.6858C35.6451 51.3277 35.7613 50.9044 35.7411 50.4765C35.3606 42.4472 37.5341 38.8965 40.4658 36.667C41.5173 35.8684 42.6652 35.4674 43.7978 35.4674C44.9303 35.4674 46.0782 35.8684 47.1301 36.667C50.0617 38.8965 52.2352 42.4472 51.8547 50.4765C51.8346 50.9044 51.9507 51.3277 52.1865 51.6858C52.4223 52.0438 52.7657 52.3182 53.1674 52.4696ZM43.7978 0.0414886C48.598 0.170042 53.4101 1.09959 57.5865 2.90786C60.4785 4.16169 63.177 5.81788 65.6205 7.79836C66.724 8.69244 67.6326 9.55618 68.6336 10.5505C71.3331 10.6436 75.2784 7.65208 77.11 4.85288C73.9578 15.1611 59.5736 27.3341 49.6153 31.9921C49.6112 31.9903 49.6085 31.988 49.6054 31.9859C47.8182 30.6247 45.8082 29.9441 43.7978 29.9441C41.7874 29.9441 39.7776 30.6247 37.9905 31.9859C37.9874 31.9876 37.9847 31.9907 37.9806 31.9921C28.0219 27.3341 13.638 15.1611 10.4859 4.85288C12.3171 7.65208 16.2624 10.6436 18.962 10.5505C19.9632 9.55652 20.8718 8.69244 21.975 7.79836C24.4185 5.81788 27.117 4.16169 30.0091 2.90786C34.1857 1.09959 38.9979 0.170042 43.7978 0.0414886ZM34.972 36.4819C31.8352 34.9215 27.8431 32.6246 23.8469 29.4776C23.0043 31.2231 22.912 32.7463 23.3458 33.9763C23.6538 34.8431 24.2336 35.597 24.9955 36.1968C25.8214 36.845 26.8524 37.317 27.9922 37.572C30.1547 38.058 32.6792 37.7742 34.972 36.4819Z"
+                                    fill="white"
+                                  ></path>
+                                  <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M68.1254 25.621C70.3255 23.4063 72.2641 20.9549 73.8229 18.7675L74.6146 20.2538C77.1635 25.3404 78.4878 30.4065 78.4878 36.1079L78.4823 45.1551L78.5302 49.8451C78.7148 61.359 81.2123 73.0083 86.8698 83.6691L75.0327 74.1479L66.6572 87.7054L57.858 79.4428L43.7972 102.204L29.7364 79.4431L20.9376 87.7057L12.5621 74.1482L0.724609 83.6694C6.38216 73.0086 8.87969 61.3593 9.06463 49.8454L9.11249 45.1554L9.10702 36.1082C9.10702 30.4065 10.431 25.3404 12.9805 20.2542L13.7719 18.7678C15.3307 20.9553 17.2689 23.4063 19.4694 25.6214L18.7823 27.045C17.4474 29.8101 17.0054 32.9019 18.0453 35.8423C18.7156 37.7361 19.9391 39.3603 21.5164 40.6001C23.0478 41.8042 24.8603 42.6157 26.7579 43.042C27.994 43.3195 29.2534 43.4338 30.5045 43.3949C30.2126 45.0456 30.0851 46.7577 30.0769 48.5023L18.9108 54.9354L27.5274 59.7533C28.2161 60.1384 28.8717 60.5797 29.4875 61.0726C36.5914 67.4348 40.8625 86.2565 43.7976 95.45C46.733 86.2565 51.0037 67.4348 58.1079 61.0726C58.7237 60.5796 59.3793 60.1383 60.0681 59.7533L68.6846 54.9354L57.5182 48.5023C57.51 46.7577 57.3825 45.0456 57.0906 43.3949C58.3417 43.4338 59.6011 43.3195 60.8372 43.042C62.7348 42.6157 64.5476 41.8042 66.0788 40.6001C67.6557 39.3603 68.8795 37.7361 69.5495 35.8423C70.5898 32.9019 70.1474 29.8105 68.8128 27.045L68.1257 25.6214L68.1254 25.621Z"
+                                    fill="white"
+                                  ></path>
+                                </svg>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="swiper-slide"
+                    data-slide="2"
+                    role="group"
+                    aria-roledescription="slide"
+                    aria-label="2 of 5"
+                  >
+                    <div
+                      class="elementor-element elementor-element-39e2f6e e-flex e-con-boxed e-con e-child"
+                      data-id="39e2f6e"
+                      data-element_type="container"
+                    >
+                      <div class="e-con-inner">
+                        <div
+                          class="elementor-element elementor-element-35ca610 elementor-view-default elementor-widget elementor-widget-icon"
+                          data-id="35ca610"
+                          data-element_type="widget"
+                          data-widget_type="icon.default"
+                        >
+                          <div class="elementor-widget-container">
+                            <div class="elementor-icon-wrapper">
+                              <div class="elementor-icon">
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="89"
+                                  height="102"
+                                  viewBox="0 0 89 102"
+                                  fill="none"
+                                >
+                                  <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M33.6355 6.22099C27.6001 9.36314 22.6623 12.022 22.6633 12.1302C22.666 12.4093 37.1485 19.7395 37.6625 19.7217C37.8963 19.7138 39.5926 18.9335 41.4318 17.9877L44.7762 16.2685L48.4289 18.1449L52.0813 20.0217L58.0628 17.3355C67.0758 13.2878 68.0119 12.8442 67.8651 12.6952C67.6704 12.4975 64.4377 10.7618 55.6669 6.14695C51.4282 3.91656 47.3141 1.72973 46.5243 1.28722C45.7346 0.844718 44.9806 0.488752 44.8489 0.495643C44.7172 0.502533 39.671 3.07897 33.6355 6.22099ZM7.16424 19.9208L0.881452 23.1642V37.3988C0.881452 45.228 0.963951 51.6334 1.06515 51.6334C1.16599 51.6334 4.25714 50.2942 7.93419 48.6574L14.6198 45.6815V30.6772L17.8868 32.4561C20.4043 33.8256 22.9233 35.1924 25.4439 36.5563L29.7338 38.8777L31.6428 38.015C32.84 37.4731 34.0348 36.9259 35.2271 36.3735C36.1485 35.9446 38.4104 34.9265 40.2533 34.1105C42.0962 33.2941 43.8021 32.4732 44.044 32.2862C44.3654 32.0376 40.447 29.8736 29.5512 24.2816C21.3381 20.0664 14.3548 16.631 14.0327 16.6475C13.7106 16.6639 10.6199 18.1367 7.16424 19.9208ZM68.9974 20.8316C64.7185 22.7622 61.2145 24.4189 61.2105 24.5134C61.2068 24.6078 63.5389 25.9937 66.3935 27.5927C69.2477 29.1921 71.5832 30.5862 71.5832 30.6912C71.5832 30.796 69.0574 32.0191 65.9707 33.4098C62.8835 34.8001 55.0806 38.3219 48.6303 41.2361L27.0177 50.9997C21.581 53.456 16.6805 55.6699 16.1277 55.9202C5.023 60.9442 1.97077 62.3383 1.55161 62.5776C1.13012 62.8185 1.03465 64.2182 0.959628 71.2433L0.870117 79.622L6.48847 82.4831L12.1067 85.344L19.8973 81.8301C24.1822 79.8976 27.6878 78.2152 27.6878 78.0913C27.6878 77.9677 26.896 77.4521 25.9287 76.945C24.9609 76.4379 22.9632 75.3154 21.4888 74.45C20.0146 73.5845 18.5446 72.7905 18.2218 72.6851C17.8992 72.5801 17.6399 72.3964 17.6451 72.2766C17.6505 72.1571 21.0811 70.5285 25.2682 68.6573C33.4009 65.0232 39.6247 62.2223 52.9863 56.1834C58.9611 53.4836 64.9367 50.7854 70.913 48.0889C76.1654 45.7195 82.2722 42.9523 84.4838 41.9395L88.5048 40.0981L88.5941 31.624L88.684 23.1502L82.9856 20.227C79.8513 18.6194 77.1723 17.308 77.0319 17.3128C76.8915 17.3172 73.2761 18.9005 68.9974 20.8316ZM86.9781 51.4031C86.1383 51.813 84.4797 52.5805 83.2922 53.1085C82.1048 53.6365 79.8513 54.6527 78.2848 55.3671L75.4366 56.6654L75.3716 64.1049C75.3357 68.1965 75.185 71.5261 75.0366 71.5045C74.6995 71.4544 69.3613 68.7183 63.9954 65.8447C60.1225 63.7709 59.8792 63.6885 58.9691 64.1389C58.4431 64.3995 55.2984 65.809 51.9811 67.2717C48.6637 68.7342 45.8415 70.0264 45.7087 70.1434C45.5763 70.2602 52.2528 73.8767 60.5457 78.1805L75.6233 86.0056L82.0642 82.6756C85.6063 80.8444 88.6183 79.174 88.757 78.9639C89.0693 78.4915 89.0425 50.5929 88.7299 50.6307C88.6063 50.6455 87.8178 50.9932 86.9781 51.4031ZM51.311 84.149C50.1937 84.6291 49.0768 85.1098 47.9602 85.5912C44.5882 87.0492 45.249 87.0975 41.2374 85.1017C38.5656 83.7724 37.4138 83.3622 36.9139 83.5613C36.539 83.7106 33.3118 85.1617 29.7419 86.7858C26.1722 88.41 23.1277 89.7388 22.9763 89.7388C21.4785 89.7388 23.9685 91.2256 33.5766 96.0694L44.8446 101.75L49.5856 99.4104C52.1932 98.1237 57.4526 95.5473 61.2735 93.685C65.094 91.8223 68.1728 90.25 68.1152 90.1906C68.0571 90.1315 64.8558 88.4886 61.0008 86.5396L53.9916 82.9966L51.311 84.149Z"
+                                    fill="white"
+                                  ></path>
+                                </svg>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="swiper-slide"
+                    data-slide="3"
+                    role="group"
+                    aria-roledescription="slide"
+                    aria-label="3 of 5"
+                  >
+                    <div
+                      class="elementor-element elementor-element-8cb91ed e-flex e-con-boxed e-con e-child"
+                      data-id="8cb91ed"
+                      data-element_type="container"
+                    >
+                      <div class="e-con-inner">
+                        <div
+                          class="elementor-element elementor-element-949e443 elementor-view-default elementor-widget elementor-widget-icon"
+                          data-id="949e443"
+                          data-element_type="widget"
+                          data-widget_type="icon.default"
+                        >
+                          <div class="elementor-widget-container">
+                            <div class="elementor-icon-wrapper">
+                              <div class="elementor-icon">
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="79"
+                                  height="77"
+                                  viewBox="0 0 79 77"
+                                  fill="none"
+                                >
+                                  <path
+                                    d="M64.0667 37.1467H14.7716C6.93612 37.1467 0.584412 43.5048 0.584412 51.3387V62.742C0.584412 70.576 6.93612 76.9324 14.7716 76.9324H64.0667C71.9006 76.9324 78.2539 70.576 78.2539 62.742V51.3387C78.2539 43.5048 71.9006 37.1467 64.0667 37.1467ZM25.1282 46.0242H20.5454V68.796H16.1177V46.0242H11.538V42.1508H25.1282V46.0242ZM38.0739 68.796H34.1467V66.6424C33.4166 67.4389 32.6644 68.047 31.879 68.4571C31.0935 68.8847 30.335 69.0842 29.5971 69.0842C28.6849 69.0842 28.0071 68.7944 27.5432 68.2054C27.0871 67.6179 26.8543 66.7469 26.8543 65.5703V49.1375H30.7816V64.2179C30.7816 64.6835 30.8687 65.0176 31.0254 65.2251C31.1949 65.4389 31.4641 65.537 31.8331 65.537C32.1181 65.537 32.4855 65.4008 32.9273 65.1253C33.3723 64.8466 33.7777 64.4982 34.1467 64.0675V49.136H38.0739V68.796ZM52.3324 64.7373C52.3324 66.1261 52.0236 67.1934 51.4076 67.9377C50.7948 68.682 49.8985 69.0478 48.7377 69.0478C47.9649 69.0478 47.2777 68.9085 46.6806 68.6202C46.0805 68.3352 45.5151 67.8966 45.0005 67.2885V68.7944H41.0257V42.1508H45.0005V50.7322C45.5326 50.1384 46.0947 49.6775 46.6822 49.3688C47.2824 49.0536 47.8857 48.9016 48.497 48.9016C49.7401 48.9016 50.6871 49.3165 51.3427 50.1542C52.0015 50.9919 52.3293 52.2192 52.3293 53.8281V64.7373H52.3324ZM65.9559 59.4403H58.4403V63.1443C58.4403 64.1767 58.5669 64.8957 58.8235 65.2963C59.0864 65.6986 59.5282 65.8949 60.1569 65.8949C60.8093 65.8949 61.2606 65.7255 61.5235 65.3866C61.7769 65.0445 61.913 64.3003 61.913 63.1443V62.2495H65.9559V63.2583C65.9559 65.2726 65.4666 66.7912 64.4737 67.8158C63.4966 68.8309 62.0239 69.3344 60.0666 69.3344C58.3041 69.3344 56.9153 68.7976 55.9065 67.7176C54.901 66.6439 54.3879 65.1538 54.3879 63.2599V54.4299C54.3879 52.7307 54.9485 51.3324 56.0617 50.2603C57.1718 49.1882 58.6018 48.653 60.3611 48.653C62.1617 48.653 63.5441 49.1486 64.5085 50.1431C65.4729 51.1392 65.9559 52.5644 65.9559 54.4283V59.4403Z"
+                                    fill="white"
+                                  ></path>
+                                  <path
+                                    d="M60.1949 52.0894C59.5679 52.0894 59.1213 52.2651 58.8489 52.6325C58.5702 52.9777 58.4404 53.5684 58.4404 54.3935V56.3808H61.9131V54.3935C61.9131 53.5684 61.7738 52.9762 61.4982 52.6325C61.2338 52.2667 60.792 52.0894 60.1949 52.0894Z"
+                                    fill="white"
+                                  ></path>
+                                  <path
+                                    d="M46.6444 52.0228C46.3657 52.0228 46.0838 52.0846 45.813 52.2129C45.5375 52.338 45.2683 52.5454 45.0023 52.8146V65.0604C45.3174 65.3771 45.6294 65.621 45.9334 65.7603C46.2359 65.8949 46.5494 65.9709 46.8835 65.9709C47.3665 65.9709 47.7181 65.8316 47.9445 65.5497C48.1678 65.271 48.2818 64.826 48.2818 64.1973V54.0451C48.2818 53.3768 48.1488 52.8764 47.8701 52.5327C47.5819 52.1939 47.1733 52.0228 46.6444 52.0228Z"
+                                    fill="white"
+                                  ></path>
+                                  <path
+                                    d="M21.2264 30.3183H26.2051V18.1406L32.0026 0.962036H26.9415L23.8599 12.6963H23.5463L20.3111 0.962036H15.2959L21.2264 18.6886V30.3183Z"
+                                    fill="white"
+                                  ></path>
+                                  <path
+                                    d="M38.7485 30.8647C40.7597 30.8647 42.3369 30.3374 43.4866 29.2827C44.6284 28.2233 45.2 26.7775 45.2 24.9247V13.7384C45.2 12.0899 44.6157 10.7328 43.4518 9.68602C42.2799 8.64245 40.7787 8.1167 38.9481 8.1167C36.9369 8.1167 35.3359 8.61394 34.1451 9.60684C32.9574 10.5997 32.3604 11.9315 32.3604 13.6149V24.8392C32.3604 26.6809 32.9416 28.1378 34.1023 29.2305C35.2631 30.3184 36.815 30.8647 38.7485 30.8647ZM36.9148 13.4502C36.9148 12.9799 37.0842 12.5998 37.4152 12.3021C37.7588 12.0107 38.1943 11.8698 38.7359 11.8698C39.3202 11.8698 39.7937 12.0107 40.1548 12.3021C40.5142 12.5998 40.6932 12.9799 40.6932 13.4502V25.2494C40.6932 25.8274 40.5174 26.2866 40.1611 26.6176C39.808 26.9501 39.3329 27.1132 38.7359 27.1132C38.1515 27.1132 37.7002 26.9549 37.3835 26.6223C37.0715 26.2977 36.9132 25.8416 36.9132 25.2478L36.9148 13.4502Z"
+                                    fill="white"
+                                  ></path>
+                                  <path
+                                    d="M51.878 30.635C52.7094 30.635 53.5629 30.3975 54.4418 29.9414C55.3302 29.479 56.1806 28.8029 56.9898 27.9208V30.3199H61.4127V8.66455H56.9898V25.102C56.5781 25.5724 56.1204 25.9588 55.6295 26.266C55.1291 26.57 54.7174 26.722 54.3927 26.722C53.9778 26.722 53.6722 26.608 53.4933 26.3721C53.3111 26.1456 53.2082 25.7751 53.2082 25.2667V8.66455H48.7916V26.7632C48.7916 28.0538 49.0513 29.0182 49.5644 29.658C50.087 30.3073 50.8503 30.635 51.878 30.635Z"
+                                    fill="white"
+                                  ></path>
+                                </svg>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="swiper-slide"
+                    data-slide="4"
+                    role="group"
+                    aria-roledescription="slide"
+                    aria-label="4 of 5"
+                  >
+                    <div
+                      class="elementor-element elementor-element-0f1b6f3 e-flex e-con-boxed e-con e-child"
+                      data-id="0f1b6f3"
+                      data-element_type="container"
+                    >
+                      <div class="e-con-inner">
+                        <div
+                          class="elementor-element elementor-element-3547e94 elementor-view-default elementor-widget elementor-widget-icon"
+                          data-id="3547e94"
+                          data-element_type="widget"
+                          data-widget_type="icon.default"
+                        >
+                          <div class="elementor-widget-container">
+                            <div class="elementor-icon-wrapper">
+                              <div class="elementor-icon">
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="116"
+                                  height="117"
+                                  viewBox="0 0 116 117"
+                                  fill="none"
+                                >
+                                  <path
+                                    d="M100.436 69.4358C99.5296 70.0591 98.4718 70.4269 97.3737 70.5005C96.2757 70.5741 95.1781 70.3507 94.1965 69.854C91.8923 68.5547 90.6504 65.5079 90.6504 61.356V48.6314C90.6504 42.523 88.2264 38.1769 84.1716 36.997C77.3187 34.9958 72.2015 43.3743 70.2265 46.5256L58.1068 66.1053V42.2094C57.9721 36.6983 56.1766 33.3977 52.7801 32.412C50.5357 31.7549 47.1692 32.0237 43.8924 37.012L16.7952 80.428C13.1898 73.5428 11.3203 65.884 11.3488 58.1151C11.3488 31.949 32.2964 10.6667 58.1068 10.6667C83.9172 10.6667 104.94 31.949 104.94 58.1151V58.2495C104.94 58.2495 104.94 58.3391 104.94 58.3839C105.194 63.4469 103.548 67.4793 100.451 69.4358H100.436ZM115.398 58.13V57.8761C115.189 25.99 89.5731 0.122574 58.1068 0.122574C26.6405 0.122574 0.875 26.1393 0.875 58.1151C0.875 90.0909 26.5508 116.123 58.1068 116.123C72.5798 116.122 86.5021 110.585 97.0094 100.65C98.0294 99.6908 98.6295 98.3692 98.6799 96.9714C98.7304 95.5736 98.2269 94.2123 97.2788 93.1824C96.825 92.6815 96.2765 92.275 95.6648 91.9865C95.0531 91.6979 94.3903 91.5329 93.7145 91.501C93.0386 91.4691 92.3631 91.5708 91.7269 91.8005C91.0906 92.0301 90.5061 92.383 90.007 92.8389C85.4832 97.1222 80.139 100.449 74.2951 102.619C68.4512 104.789 62.2283 105.758 55.9998 105.468C49.7713 105.178 43.6658 103.635 38.0499 100.931C32.4339 98.2266 27.4233 94.4176 23.3188 89.7325L47.7078 50.6028V68.6592C47.7078 77.3364 51.0744 80.1442 53.9023 80.9656C56.7302 81.7871 61.0544 81.2195 65.5881 73.8715L79.0544 52.1112C79.4733 51.4093 79.8773 50.8119 80.2364 50.2892V61.356C80.2364 69.4657 83.4983 75.9475 89.214 79.1436C91.813 80.544 94.7416 81.2206 97.6928 81.1024C100.644 80.9841 103.509 80.0754 105.987 78.4715C112.271 74.3942 115.698 67.0164 115.339 58.13H115.398Z"
+                                    fill="white"
+                                  ></path>
+                                </svg>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="swiper-slide"
+                    data-slide="5"
+                    role="group"
+                    aria-roledescription="slide"
+                    aria-label="5 of 5"
+                  >
+                    <div
+                      class="elementor-element elementor-element-402eb8e e-flex e-con-boxed e-con e-child"
+                      data-id="402eb8e"
+                      data-element_type="container"
+                    >
+                      <div class="e-con-inner">
+                        <div
+                          class="elementor-element elementor-element-757eaea elementor-view-default elementor-widget elementor-widget-icon"
+                          data-id="757eaea"
+                          data-element_type="widget"
+                          data-widget_type="icon.default"
+                        >
+                          <div class="elementor-widget-container">
+                            <div class="elementor-icon-wrapper">
+                              <div class="elementor-icon">
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="121"
+                                  height="121"
+                                  viewBox="0 0 121 121"
+                                  fill="none"
+                                >
+                                  <path
+                                    d="M120.365 60.1085C120.002 93.5801 93.7064 120.146 60.5976 120.245C26.5958 120.311 0.631432 93.2166 0.399902 60.4389C0.168372 26.703 27.4227 -0.424515 61.2591 0.00503164C94.5994 0.434578 120.134 27.5291 120.398 60.1085H120.365ZM14.3909 91.5645C14.6224 91.5645 14.854 91.5645 15.0855 91.5645C16.1108 88.5247 17.2685 85.5178 18.1285 82.4119C20.4768 73.821 20.973 64.9987 21.6014 56.1765C22.3621 45.6361 27.092 37.8051 36.9485 33.3775C38.04 32.8819 39.1646 32.4193 40.2892 31.9897C44.7213 30.3046 49.2857 28.8507 54.0817 29.4785C58.0177 30.0072 61.8545 30.2385 65.8236 29.875C69.8257 29.4785 73.1664 30.9654 75.3494 34.4679C76.1432 35.7235 77.2016 36.3843 78.5246 36.8469C82.8906 38.3338 87.2235 39.8537 91.6226 41.3076C95.5586 42.5962 99.1969 44.3805 102.041 47.4864C104.39 50.0637 105.316 52.9384 104.522 56.4408C103.662 60.1746 101.148 62.851 98.9323 65.6926C97.6424 67.3778 95.9555 68.7655 94.3679 70.2524C86.7605 77.3895 79.7815 85.0222 74.6879 94.1749C71.4134 100.089 69.6604 106.433 69.8919 113.24C69.958 115.057 70.1234 115.223 71.9426 114.826C84.9413 111.885 95.7571 105.409 103.993 94.9348C113.651 82.6762 117.322 68.6994 115.569 53.3018C113.783 37.673 106.308 25.1831 93.9048 15.6009C87.4551 10.6115 80.2115 7.17515 72.0418 5.82043C66.9151 4.96134 61.7883 4.20137 56.5624 4.59788C39.0323 5.91956 25.1736 13.8166 14.9532 27.9586C7.94116 37.673 4.69974 48.6099 4.86512 60.6372C4.99742 71.0785 7.51117 80.7928 13.0017 89.6811C13.4317 90.375 13.9279 91.0028 14.424 91.6637L14.3909 91.5645ZM52.1633 57.0686C57.9516 57.2008 63.0121 52.4097 63.1114 46.5943C63.2437 41.0102 58.3485 35.7235 52.9241 35.5913C46.7058 35.4591 41.7114 40.3163 41.6122 46.6274C41.513 51.9141 46.5735 56.9034 52.1303 57.0686H52.1633ZM61.7222 69.8229C62.5822 70.3515 63.4091 70.9793 64.3352 71.4419C68.8665 73.7218 73.6294 73.6227 78.4916 72.8627C83.5191 72.1028 88.2158 70.3515 92.7803 68.2368C95.0956 67.1795 97.1462 65.6265 99.3292 64.2718C99.2631 64.1066 99.1969 63.9414 99.1308 63.8092C87.3559 70.0211 75.2502 74.0522 61.7222 69.8559V69.8229ZM91.0272 54.987C89.7373 54.987 88.6789 55.9452 88.712 57.0356C88.745 58.159 89.8696 59.3485 90.8619 59.3816C92.0857 59.3816 93.0779 58.4564 93.111 57.2338C93.1441 55.9452 92.2841 55.02 91.0272 54.987Z"
+                                    fill="white"
+                                  ></path>
+                                  <path
+                                    d="M52.5603 53.8634C48.3266 53.8634 45.0521 50.4931 45.0852 46.2307C45.0852 42.3648 48.5912 39.0275 52.5603 39.0606C56.6948 39.0606 60.1016 42.5961 60.0354 46.7924C59.9693 50.4931 56.3971 53.8965 52.5934 53.8965L52.5603 53.8634Z"
+                                    fill="white"
+                                  ></path>
+                                </svg>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+      <div
+        class="elementor-element elementor-element-81da985 e-con-full e-flex e-con e-parent"
+        data-id="81da985"
+        data-element_type="container"
+        data-settings='{"background_background":"classic"}'
+      >
+        <div
+          class="elementor-element elementor-element-f340aea e-con-full e-flex e-con e-child"
+          data-id="f340aea"
+          data-element_type="container"
+          data-settings='{"background_background":"classic"}'
+        >
+          <div
+            class="elementor-element elementor-element-b260e94 elementor-widget elementor-widget-spacer"
+            data-id="b260e94"
+            data-element_type="widget"
+            data-widget_type="spacer.default"
+          >
+            <div class="elementor-widget-container">
+              <div class="elementor-spacer">
+                <div class="elementor-spacer-inner"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="elementor-element elementor-element-8d62f6b e-flex e-con-boxed e-con e-parent"
+        data-id="8d62f6b"
+        data-element_type="container"
+      >
+        <div class="e-con-inner">
+          <div
+            class="elementor-element elementor-element-1ece988 elementor-widget elementor-widget-image"
+            data-id="1ece988"
+            data-element_type="widget"
+            data-widget_type="image.default"
+          >
+            <div class="elementor-widget-container">
+              <img
+                loading="lazy"
+                decoding="async"
+                width="698"
+                height="1024"
+                src="https://duckyduck.io/wp-content/uploads/2024/07/rocketr-698x1024-1.webp"
+                class="attachment-large size-large wp-image-102"
+                alt="Ducky Rocket"
+                srcset="
+                  https://duckyduck.io/wp-content/uploads/2024/07/rocketr-698x1024-1.webp         698w,
+                  https://duckyduck.io/wp-content/uploads/2024/07/rocketr-698x1024-1-204x300.webp 204w
+                "
+                sizes="(max-width: 698px) 100vw, 698px"
+              />
+            </div>
+          </div>
+          <div
+            class="elementor-element elementor-element-96865e1 e-con-full e-flex e-con e-child"
+            data-id="96865e1"
+            data-element_type="container"
+          >
+            <div
+              class="elementor-element elementor-element-7a78289 e-con-full e-flex e-con e-child"
+              data-id="7a78289"
+              data-element_type="container"
+            >
+              <div
+                class="elementor-element elementor-element-6baf23b elementor-widget elementor-widget-image"
+                data-id="6baf23b"
+                data-element_type="widget"
+                data-widget_type="image.default"
+              >
+                <div class="elementor-widget-container">
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    width="800"
+                    height="800"
+                    src="https://duckyduck.io/wp-content/uploads/2024/08/duck-on-seat-2-1024x1024.webp"
+                    class="attachment-large size-large wp-image-1316"
+                    alt="Ducky On a seat"
+                    srcset="
+                      https://duckyduck.io/wp-content/uploads/2024/08/duck-on-seat-2-1024x1024.webp 1024w,
+                      https://duckyduck.io/wp-content/uploads/2024/08/duck-on-seat-2-300x300.webp    300w,
+                      https://duckyduck.io/wp-content/uploads/2024/08/duck-on-seat-2-150x150.webp    150w,
+                      https://duckyduck.io/wp-content/uploads/2024/08/duck-on-seat-2-768x768.webp    768w,
+                      https://duckyduck.io/wp-content/uploads/2024/08/duck-on-seat-2-1536x1536.webp 1536w,
+                      https://duckyduck.io/wp-content/uploads/2024/08/duck-on-seat-2.webp           1714w
+                    "
+                    sizes="(max-width: 800px) 100vw, 800px"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="elementor-element elementor-element-256072e e-con-full e-flex e-con e-child"
+              data-id="256072e"
+              data-element_type="container"
+            >
+              <div
+                class="elementor-element elementor-element-d6923b5 e-con-full e-transform e-flex e-con e-child"
+                data-id="d6923b5"
+                data-element_type="container"
+                data-settings='{"_transform_rotateZ_effect":{"unit":"px","size":-3,"sizes":[]},"_transform_rotateZ_effect_tablet":{"unit":"deg","size":"","sizes":[]},"_transform_rotateZ_effect_mobile":{"unit":"deg","size":"","sizes":[]}}'
+              >
+                <div
+                  class="elementor-element elementor-element-13ed926 elementor-widget elementor-widget-heading"
+                  data-id="13ed926"
+                  data-element_type="widget"
+                  data-widget_type="heading.default"
+                >
+                  <div class="elementor-widget-container">
+                    <h2 class="elementor-heading-title elementor-size-default">
+                      Quack, quack!
+                    </h2>
+                  </div>
+                </div>
+                <div
+                  class="elementor-element elementor-element-a92fe21 elementor-widget elementor-widget-heading"
+                  data-id="a92fe21"
+                  data-element_type="widget"
+                  data-widget_type="heading.default"
+                >
+                  <div class="elementor-widget-container">
+                    <h2 class="elementor-heading-title elementor-size-default">
+                      Quack, quack!
+                    </h2>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="elementor-element elementor-element-4b576fc elementor-widget elementor-widget-heading"
+                data-id="4b576fc"
+                data-element_type="widget"
+                data-widget_type="heading.default"
+              >
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">
+                    Quack, quack!
+                  </h2>
+                </div>
+              </div>
+              <div
+                class="elementor-element elementor-element-f2998b4 elementor-widget elementor-widget-heading"
+                data-id="f2998b4"
+                data-element_type="widget"
+                data-widget_type="heading.default"
+              >
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">
+                    You just waddled into the most exciting corner of the crypto
+                    universe, where ducky
+                  </h2>
+                </div>
+              </div>
+              <div
+                class="elementor-element elementor-element-0d4e586 elementor-widget elementor-widget-heading"
+                data-id="0d4e586"
+                data-element_type="widget"
+                data-widget_type="heading.default"
+              >
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">
+                    INSPIRED BY MATT FURIE
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="elementor-element elementor-element-9255fca elementor-widget elementor-widget-text-editor"
+            data-id="9255fca"
+            data-element_type="widget"
+            data-widget_type="text-editor.default"
+          >
+            <div class="elementor-widget-container">
+              <p>
+                Study the pink mascot of the
+                <span style="color: #a2a3e9">purple chain</span>
+              </p>
+            </div>
+          </div>
+          <div
+            class="elementor-element elementor-element-e99cc76 elementor-widget elementor-widget-image"
+            data-id="e99cc76"
+            data-element_type="widget"
+            data-widget_type="image.default"
+          >
+            <div class="elementor-widget-container">
+              <img
+                loading="lazy"
+                decoding="async"
+                width="800"
+                height="662"
+                src="https://duckyduck.io/wp-content/uploads/2024/07/space-orb-1024x847.png"
+                class="attachment-large size-large wp-image-118"
+                alt=""
+                srcset="
+                  https://duckyduck.io/wp-content/uploads/2024/07/space-orb-1024x847.png 1024w,
+                  https://duckyduck.io/wp-content/uploads/2024/07/space-orb-300x248.png   300w,
+                  https://duckyduck.io/wp-content/uploads/2024/07/space-orb-768x635.png   768w,
+                  https://duckyduck.io/wp-content/uploads/2024/07/space-orb.png          1174w
+                "
+                sizes="(max-width: 800px) 100vw, 800px"
+              />
+            </div>
+          </div>
+          <div
+            class="elementor-element elementor-element-2eded88 e-con-full e-transform e-flex e-con e-child"
+            data-id="2eded88"
+            data-element_type="container"
+            data-settings='{"_transform_rotateZ_effect":{"unit":"px","size":-5,"sizes":[]},"_transform_rotateZ_effect_tablet":{"unit":"deg","size":"","sizes":[]},"_transform_rotateZ_effect_mobile":{"unit":"deg","size":"","sizes":[]}}'
+          >
+            <div
+              class="elementor-element elementor-element-ddb8cd5 elementor-widget elementor-widget-heading"
+              data-id="ddb8cd5"
+              data-element_type="widget"
+              data-widget_type="heading.default"
+            >
+              <div class="elementor-widget-container">
+                <h2 class="elementor-heading-title elementor-size-default">
+                  CONTRACT ADDRESS
+                </h2>
+              </div>
+            </div>
+            <div
+              class="elementor-element elementor-element-d5f7c3b elementor-widget elementor-widget-heading"
+              data-id="d5f7c3b"
+              data-element_type="widget"
+              data-widget_type="heading.default"
+            >
+              <div class="elementor-widget-container">
+                <h2 class="elementor-heading-title elementor-size-default">
+                  DE8NNksD5m3Kd4ohJAzTwJHLss9zbXdNUegEoL4QxD4C
+                </h2>
+              </div>
+            </div>
+            <div
+              class="elementor-element elementor-element-14530e8 elementor-widget elementor-widget-heading"
+              data-id="14530e8"
+              data-element_type="widget"
+              data-widget_type="heading.default"
+            >
+              <div class="elementor-widget-container">
+                <h2 class="elementor-heading-title elementor-size-default">
+                  0x0000000000000000000000000000000
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div
+            class="elementor-element elementor-element-575ce9c elementor-widget elementor-widget-image"
+            data-id="575ce9c"
+            data-element_type="widget"
+            data-widget_type="image.default"
+          ></div>
+        </div>
+      </div>
+      <div
+        class="elementor-element elementor-element-cc92c11 e-flex e-con-boxed e-con e-parent"
+        data-id="cc92c11"
+        data-element_type="container"
+      >
+        <div class="e-con-inner">
+          <div
+            class="elementor-element elementor-element-04c01c8 elementor-widget elementor-widget-heading"
+            data-id="04c01c8"
+            data-element_type="widget"
+            data-widget_type="heading.default"
+          >
+            <div class="elementor-widget-container">
+              <h2 class="elementor-heading-title elementor-size-default">
+                WATCH DUCKY AND HIS FRENS
+              </h2>
+            </div>
+          </div>
+          <div
+            class="elementor-element elementor-element-a7dbb63 e-con-full e-transform e-flex e-con e-child"
+            data-id="a7dbb63"
+            data-element_type="container"
+            data-settings='{"background_background":"classic","_transform_rotateZ_effect":{"unit":"px","size":"","sizes":[]},"_transform_rotateZ_effect_tablet":{"unit":"deg","size":"","sizes":[]},"_transform_rotateZ_effect_mobile":{"unit":"deg","size":"","sizes":[]}}'
+          >
+            <div
+              class="elementor-element elementor-element-204cea1 e-con-full e-transform e-transform e-flex e-con e-child"
+              data-id="204cea1"
+              data-element_type="container"
+              data-settings='{"_transform_rotateZ_effect":{"unit":"px","size":-4,"sizes":[]},"_transform_rotateZ_effect_mobile":{"unit":"deg","size":-3,"sizes":[]},"_transform_translateX_effect":{"unit":"px","size":-50,"sizes":[]},"_transform_translateX_effect_mobile":{"unit":"px","size":-5,"sizes":[]},"_transform_translateY_effect":{"unit":"px","size":30,"sizes":[]},"_transform_translateY_effect_mobile":{"unit":"px","size":14,"sizes":[]},"_transform_rotateZ_effect_tablet":{"unit":"deg","size":"","sizes":[]},"_transform_translateX_effect_tablet":{"unit":"px","size":"","sizes":[]},"_transform_translateY_effect_tablet":{"unit":"px","size":"","sizes":[]}}'
+            >
+              <div
+                class="elementor-element elementor-element-a9c6506 elementor-widget elementor-widget-video"
+                data-id="a9c6506"
+                data-element_type="widget"
+                data-settings='{"video_type":"hosted","autoplay":"yes","mute":"yes","controls":"yes"}'
+                data-widget_type="video.default"
+              >
+                <div class="elementor-widget-container">
+                  <div
+                    class="e-hosted-video elementor-wrapper elementor-open-inline"
+                  >
+                    <video
+                      class="elementor-video"
+                      src="https://ojj.a3d.myftpupload.com/wp-content/uploads/2024/07/IMG_7544.mp4"
+                      autoplay=""
+                      controls=""
+                      muted="muted"
+                      controlsList="nodownload"
+                    ></video>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="elementor-element elementor-element-3422152 buy elementor-widget elementor-widget-heading"
+            data-id="3422152"
+            data-element_type="widget"
+            id="buy"
+            data-widget_type="heading.default"
+          >
+            <div class="elementor-widget-container">
+              <h2 class="elementor-heading-title elementor-size-default">
+                HOW TO BUY
+              </h2>
+            </div>
+          </div>
+          <div
+            class="elementor-element elementor-element-e8b700c elementor-widget elementor-widget-image"
+            data-id="e8b700c"
+            data-element_type="widget"
+            data-widget_type="image.default"
+          >
+            <div class="elementor-widget-container">
+              <img
+                loading="lazy"
+                decoding="async"
+                width="716"
+                height="1024"
+                src="./images/How-to-buy-New_1-716x1024.png"
+                class="attachment-large size-large wp-image-1400"
+                alt=""
+                sizes="(max-width: 716px) 100vw, 716px"
+              />
+            </div>
+          </div>
+          <div
+            class="elementor-element elementor-element-9fae245 e-con-full e-flex e-con e-child"
+            data-id="9fae245"
+            data-element_type="container"
+          >
+            <div
+              class="elementor-element elementor-element-ebcb559 elementor-view-default elementor-widget elementor-widget-icon"
+              data-id="ebcb559"
+              data-element_type="widget"
+              data-widget_type="icon.default"
+            >
+              <div class="elementor-widget-container">
+                <div class="elementor-icon-wrapper">
+                  <a
+                    class="elementor-icon"
+                    href="https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x00000000000000000000000000000000000000(buy)"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="55"
+                      height="19"
+                      viewBox="0 0 55 19"
+                      fill="none"
+                    >
+                      <rect
+                        x="3.53516"
+                        y="3.20117"
+                        width="50.9375"
+                        height="15.066"
+                        rx="1.19572"
+                        fill="#FA63C6"
+                      ></rect>
+                      <rect
+                        x="0.904541"
+                        y="0.80957"
+                        width="50.9375"
+                        height="15.066"
+                        rx="1.19572"
+                        fill="white"
+                      ></rect>
+                      <path
+                        d="M9.31186 11.2085C9.03248 11.0956 8.79609 10.9157 8.60268 10.6685C8.40927 10.416 8.27227 10.1339 8.19168 9.82234C8.11109 9.50536 8.08423 9.15883 8.11109 8.78275C8.14333 8.40668 8.23466 8.03597 8.38509 7.67064C8.5409 7.30531 8.74237 6.98027 8.9895 6.69552C9.23664 6.40541 9.50258 6.18244 9.78733 6.02664C10.0721 5.86546 10.3676 5.76339 10.6738 5.72041C10.9854 5.67743 11.2809 5.71772 11.5603 5.84129C11.8128 5.94874 12.033 6.10992 12.2211 6.32482L11.3185 7.2274C11.2648 7.17368 11.2057 7.13338 11.1412 7.10652C10.8672 6.9937 10.5798 7.02325 10.2789 7.19517C9.98342 7.36709 9.76046 7.63034 9.61003 7.98493C9.5187 8.24281 9.47303 8.51681 9.47303 8.80693C9.47303 9.09705 9.52676 9.37373 9.63421 9.63699C9.74166 9.90024 9.88134 10.0668 10.0533 10.1366C10.2198 10.2011 10.3891 10.2172 10.561 10.185C10.7383 10.1474 10.9075 10.0695 11.0687 9.95128L11.0606 9.95934L11.2701 10.9103C10.9532 11.1306 10.6254 11.2676 10.287 11.3213C9.95387 11.375 9.62884 11.3374 9.31186 11.2085ZM15.4184 10.9828C14.9671 10.9452 14.4326 10.9586 13.8147 11.0231C13.1969 11.0822 12.6945 11.152 12.3077 11.2326L11.7194 11.3616C11.8752 11.0392 12.0122 10.6363 12.1304 10.1528C12.2486 9.66922 12.3346 9.19644 12.3883 8.7344C12.442 8.26699 12.485 7.82644 12.5172 7.41276C12.5495 6.9937 12.5683 6.65523 12.5737 6.39735V6.01858L14.1854 5.72041C14.1371 5.80637 14.0753 6.00784 14.0001 6.32482C13.9249 6.63642 13.8496 6.98564 13.7744 7.37246C13.6992 7.75391 13.624 8.13268 13.5488 8.50876C13.4789 8.87946 13.4225 9.19107 13.3795 9.44358L13.3151 9.82234L15.5877 9.76593L15.4184 10.9828ZM17.1509 11.144L15.5795 11.3455C15.703 11.0715 15.8185 10.7008 15.926 10.2333C16.0388 9.76593 16.1302 9.29315 16.2 8.81499C16.2752 8.33683 16.337 7.88017 16.3854 7.44499C16.4391 7.00982 16.4794 6.65254 16.5062 6.37317L16.5385 5.96217L17.8923 5.73652L17.1509 11.144ZM19.1449 11.2085C18.8655 11.0956 18.6291 10.9157 18.4357 10.6685C18.2423 10.416 18.1053 10.1339 18.0247 9.82234C17.9441 9.50536 17.9172 9.15883 17.9441 8.78275C17.9763 8.40668 18.0677 8.03597 18.2181 7.67064C18.3739 7.30531 18.5754 6.98027 18.8225 6.69552C19.0696 6.40541 19.3356 6.18244 19.6203 6.02664C19.9051 5.86546 20.2006 5.76339 20.5068 5.72041C20.8184 5.67743 21.1139 5.71772 21.3933 5.84129C21.6458 5.94874 21.8661 6.10992 22.0541 6.32482L21.1515 7.2274C21.0978 7.17368 21.0387 7.13338 20.9742 7.10652C20.7002 6.9937 20.4128 7.02325 20.1119 7.19517C19.8164 7.36709 19.5935 7.63034 19.443 7.98493C19.3517 8.24281 19.306 8.51681 19.306 8.80693C19.306 9.09705 19.3598 9.37373 19.4672 9.63699C19.5747 9.90024 19.7144 10.0668 19.8863 10.1366C20.0528 10.2011 20.2221 10.2172 20.394 10.185C20.5713 10.1474 20.7405 10.0695 20.9017 9.95128L20.8936 9.95934L21.1032 10.9103C20.7862 11.1306 20.4585 11.2676 20.12 11.3213C19.7869 11.375 19.4618 11.3374 19.1449 11.2085ZM23.0997 11.0795L21.5766 11.3455C21.5927 11.3025 21.6142 11.2407 21.6411 11.1601C21.6679 11.0741 21.7217 10.8727 21.8023 10.5557C21.8775 10.2387 21.95 9.89218 22.0198 9.51611C22.0951 9.14003 22.1783 8.63232 22.2697 7.99299C22.361 7.34829 22.4416 6.66597 22.5114 5.94605L23.8331 5.73652C23.731 6.25229 23.6262 6.84327 23.5188 7.50946C24.3032 6.61225 24.7652 6.02395 24.9049 5.74458L26.0331 6.34093L23.9459 8.54905L25.2917 10.8136L23.9298 11.3455L23.2528 9.31464C23.1561 10.0668 23.1051 10.6551 23.0997 11.0795ZM29.6192 11.144C28.9208 11.1655 28.4803 11.2353 28.2976 11.3535C28.3137 11.3052 28.3379 11.2353 28.3701 11.144C28.397 11.0527 28.4507 10.8431 28.5313 10.5154C28.6119 10.1823 28.6871 9.82771 28.7569 9.45164C28.8268 9.07556 28.8993 8.5786 28.9745 7.96076C29.0498 7.33754 29.1089 6.69015 29.1518 6.01858C29.6783 5.95948 30.1001 5.85741 30.4171 5.71235C30.3526 6.3678 30.272 7.08772 30.1753 7.87211L31.2552 7.78346C31.325 7.21397 31.3787 6.62568 31.4164 6.01858C31.9429 5.95948 32.3646 5.85741 32.6816 5.71235C32.6547 5.99709 32.6144 6.3678 32.5607 6.82446C32.5124 7.27576 32.4183 7.9903 32.2786 8.96811C32.139 9.94054 32.0073 10.6658 31.8838 11.144C31.18 11.1655 30.7394 11.2353 30.5621 11.3535C30.7555 10.8163 30.9382 9.99426 31.1101 8.88752L30.0222 8.96811C29.8825 9.93516 29.7482 10.6605 29.6192 11.144ZM36.1474 10.9828C35.6371 10.9774 35.0729 11.007 34.4551 11.0715C33.8426 11.1359 33.3564 11.2004 32.9964 11.2649L32.4485 11.3696C32.572 11.0419 32.6848 10.6363 32.7869 10.1528C32.8944 9.66385 32.9776 9.18838 33.0367 8.72634C33.1012 8.2643 33.1523 7.82644 33.1899 7.41276C33.2328 6.9937 33.2624 6.65523 33.2785 6.39735L33.3027 6.01858C33.8561 5.99172 34.4417 5.95411 35.0595 5.90576C35.6773 5.85203 36.1555 5.80637 36.494 5.76876L37.0017 5.71235L36.8002 6.98564L34.5034 7.17099L34.3664 7.88823L35.7526 7.76734L35.5108 8.88752L34.2053 8.99228L34.0441 9.82234L36.3086 9.76593L36.1474 10.9828ZM38.4139 9.08899L38.2769 11.007C38.0082 11.0177 37.7342 11.0527 37.4549 11.1118C37.1755 11.1655 36.9606 11.2192 36.8102 11.2729L36.5926 11.3535C36.743 10.8431 36.8881 10.1528 37.0277 9.2824C37.1674 8.41205 37.2722 7.66527 37.342 7.04205L37.4387 6.11529C37.4817 6.10454 37.5381 6.09111 37.608 6.07499C37.6832 6.0535 37.8256 6.01858 38.0351 5.97023C38.2446 5.92188 38.4488 5.88427 38.6476 5.85741C38.8464 5.82517 39.072 5.79294 39.3245 5.7607C39.577 5.72847 39.8027 5.72041 40.0014 5.73652C40.2056 5.74727 40.3936 5.77413 40.5656 5.81711C40.7375 5.85472 40.8637 5.92994 40.9443 6.04276C41.0249 6.15558 41.0491 6.29795 41.0169 6.46988C40.9631 6.75999 40.8718 7.02325 40.7429 7.25964C40.6139 7.49603 40.4608 7.69482 40.2835 7.85599C40.1062 8.01717 39.9316 8.15148 39.7597 8.25893C39.5931 8.36101 39.4158 8.44966 39.2278 8.52487L40.348 10.8055L38.9619 11.3374L38.4139 9.08899ZM38.5509 7.07429L38.4542 8.04134C38.4703 8.03597 38.4918 8.02791 38.5186 8.01717C38.5509 8.00642 38.6073 7.98493 38.6879 7.9527C38.7684 7.92046 38.8437 7.88823 38.9135 7.85599C38.9887 7.82376 39.072 7.78346 39.1633 7.73511C39.2547 7.68138 39.3326 7.63034 39.397 7.58199C39.4669 7.52827 39.526 7.47185 39.5743 7.41276C39.6227 7.35366 39.6495 7.29456 39.6549 7.23546C39.6657 7.11189 39.5797 7.03668 39.397 7.00982C39.2144 6.98295 39.029 6.98833 38.841 7.02593L38.5509 7.07429ZM44.3476 10.9828C43.8372 10.9774 43.2731 11.007 42.6553 11.0715C42.0428 11.1359 41.5566 11.2004 41.1966 11.2649L40.6486 11.3696C40.7722 11.0419 40.885 10.6363 40.9871 10.1528C41.0945 9.66385 41.1778 9.18838 41.2369 8.72634C41.3014 8.2643 41.3524 7.82644 41.39 7.41276C41.433 6.9937 41.4625 6.65523 41.4787 6.39735L41.5028 6.01858C42.0562 5.99172 42.6418 5.95411 43.2597 5.90576C43.8775 5.85203 44.3557 5.80637 44.6941 5.76876L45.2018 5.71235L45.0004 6.98564L42.7036 7.17099L42.5666 7.88823L43.9527 7.76734L43.711 8.88752L42.4054 8.99228L42.2443 9.82234L44.5088 9.76593L44.3476 10.9828Z"
+                        fill="black"
+                      ></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="elementor-element elementor-element-d2beada e-flex e-con-boxed e-con e-parent"
+        data-id="d2beada"
+        data-element_type="container"
+      >
+        <div class="e-con-inner">
+          <div
+            class="elementor-element elementor-element-7fb85d8 elementor-widget elementor-widget-heading"
+            data-id="7fb85d8"
+            data-element_type="widget"
+            data-widget_type="heading.default"
+          >
+            <div class="elementor-widget-container">
+              <h2 class="elementor-heading-title elementor-size-default">
+                TOKENOMICS
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="elementor-element elementor-element-e3b9f93 e-con-full e-flex e-con e-parent"
+        data-id="e3b9f93"
+        data-element_type="container"
+        data-settings='{"background_background":"classic"}'
+      >
+        <div
+          class="elementor-element elementor-element-ab69943 e-con-full e-flex e-con e-child"
+          data-id="ab69943"
+          data-element_type="container"
+          data-settings='{"background_background":"classic"}'
+        >
+          <div
+            class="elementor-element elementor-element-eb77abf elementor-widget elementor-widget-text-editor"
+            data-id="eb77abf"
+            data-element_type="widget"
+            data-widget_type="text-editor.default"
+          >
+            <div class="elementor-widget-container">
+              Total Supply : 1B<br />Liquidity Pool : LP Burned Ownership :
+              Ownership Renounced
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="elementor-element elementor-element-42904f7 e-con-full memes e-flex e-con e-parent"
+        data-id="42904f7"
+        data-element_type="container"
+        id="memes"
+      >
+        <div
+          class="elementor-element elementor-element-4d6446b elementor-widget elementor-widget-heading"
+          data-id="4d6446b"
+          data-element_type="widget"
+          data-widget_type="heading.default"
+        >
+          <div class="elementor-widget-container">
+            <h2 class="elementor-heading-title elementor-size-default">
+              NEW MEMES DAY BY DAY
+            </h2>
+          </div>
+        </div>
+        <div
+          class="elementor-element elementor-element-963b45f elementor-widget elementor-widget-n-carousel"
+          data-id="963b45f"
+          data-element_type="widget"
+          data-settings='{"carousel_items":[{"slide_title":"Slide #1","_id":"787e723"},{"slide_title":"Slide #2","_id":"7edd4fb"},{"slide_title":"Slide #2","_id":"d013970"},{"slide_title":"Slide #2","_id":"8dc22bd"},{"slide_title":"Slide #2","_id":"16d499b"},{"slide_title":"Slide #2","_id":"71db694"},{"slide_title":"Slide #2","_id":"876056e"},{"slide_title":"Slide #2","_id":"ff72b75"},{"slide_title":"Slide #2","_id":"a639b25"},{"slide_title":"Slide #2","_id":"d0b3063"}],"slides_to_show":"4","slides_to_show_mobile":"2","autoplay_speed":0,"speed":2500,"offset_sides":"both","image_spacing_custom":{"unit":"px","size":-150,"sizes":[]},"image_spacing_custom_mobile":{"unit":"px","size":-50,"sizes":[]},"slides_to_show_tablet":"2","autoplay":"yes","infinite":"yes","offset_width":{"unit":"px","size":80,"sizes":[]},"offset_width_tablet":{"unit":"px","size":"","sizes":[]},"offset_width_mobile":{"unit":"px","size":"","sizes":[]},"image_spacing_custom_tablet":{"unit":"px","size":"","sizes":[]}}'
+          data-widget_type="nested-carousel.default"
+        >
+          <!-- <div class="elementor-widget-container">
+            <div class="e-n-carousel swiper" dir="ltr">
+              <div class="swiper-wrapper" aria-live="off">
+                <div
+                  class="swiper-slide"
+                  data-slide="1"
+                  role="group"
+                  aria-roledescription="slide"
+                  aria-label="1 of 10"
+                >
+                  <div
+                    class="elementor-element elementor-element-c6fa80a e-flex e-con-boxed e-con e-child"
+                    data-id="c6fa80a"
+                    data-element_type="container"
+                  >
+                    <div class="e-con-inner">
+                      <div
+                        class="elementor-element elementor-element-0b3f5b7 elementor-widget elementor-widget-image"
+                        data-id="0b3f5b7"
+                        data-element_type="widget"
+                        data-widget_type="image.default"
+                      >
+                        <div class="elementor-widget-container">
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="490"
+                            height="441"
+                            src="https://duckyduck.io/wp-content/uploads/2024/07/Frame-33-1.png"
+                            class="attachment-large size-large wp-image-539"
+                            alt=""
+                            srcset="
+                              https://duckyduck.io/wp-content/uploads/2024/07/Frame-33-1.png         490w,
+                              https://duckyduck.io/wp-content/uploads/2024/07/Frame-33-1-300x270.png 300w
+                            "
+                            sizes="(max-width: 490px) 100vw, 490px"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="swiper-slide"
+                  data-slide="2"
+                  role="group"
+                  aria-roledescription="slide"
+                  aria-label="2 of 10"
+                >
+                  <div
+                    class="elementor-element elementor-element-bc94d7d e-flex e-con-boxed e-con e-child"
+                    data-id="bc94d7d"
+                    data-element_type="container"
+                  >
+                    <div class="e-con-inner">
+                      <div
+                        class="elementor-element elementor-element-e6e2e2f elementor-widget elementor-widget-image"
+                        data-id="e6e2e2f"
+                        data-element_type="widget"
+                        data-widget_type="image.default"
+                      >
+                        <div class="elementor-widget-container">
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="530"
+                            height="488"
+                            src="https://duckyduck.io/wp-content/uploads/2024/07/Frame-31.png"
+                            class="attachment-large size-large wp-image-541"
+                            alt=""
+                            srcset="
+                              https://duckyduck.io/wp-content/uploads/2024/07/Frame-31.png         530w,
+                              https://duckyduck.io/wp-content/uploads/2024/07/Frame-31-300x276.png 300w
+                            "
+                            sizes="(max-width: 530px) 100vw, 530px"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="swiper-slide"
+                  data-slide="3"
+                  role="group"
+                  aria-roledescription="slide"
+                  aria-label="3 of 10"
+                >
+                  <div
+                    class="elementor-element elementor-element-8ca70d1 e-flex e-con-boxed e-con e-child"
+                    data-id="8ca70d1"
+                    data-element_type="container"
+                  >
+                    <div class="e-con-inner">
+                      <div
+                        class="elementor-element elementor-element-eba4f96 elementor-widget elementor-widget-image"
+                        data-id="eba4f96"
+                        data-element_type="widget"
+                        data-widget_type="image.default"
+                      >
+                        <div class="elementor-widget-container">
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="800"
+                            height="719"
+                            src="https://duckyduck.io/wp-content/uploads/2024/07/Frame-34.png"
+                            class="attachment-large size-large wp-image-751"
+                            alt=""
+                            srcset="
+                              https://duckyduck.io/wp-content/uploads/2024/07/Frame-34.png         968w,
+                              https://duckyduck.io/wp-content/uploads/2024/07/Frame-34-300x270.png 300w,
+                              https://duckyduck.io/wp-content/uploads/2024/07/Frame-34-768x690.png 768w
+                            "
+                            sizes="(max-width: 800px) 100vw, 800px"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="swiper-slide"
+                  data-slide="4"
+                  role="group"
+                  aria-roledescription="slide"
+                  aria-label="4 of 10"
+                >
+                  <div
+                    class="elementor-element elementor-element-91a700e e-flex e-con-boxed e-con e-child"
+                    data-id="91a700e"
+                    data-element_type="container"
+                  >
+                    <div class="e-con-inner">
+                      <div
+                        class="elementor-element elementor-element-5e671b4 elementor-widget elementor-widget-image"
+                        data-id="5e671b4"
+                        data-element_type="widget"
+                        data-widget_type="image.default"
+                      >
+                        <div class="elementor-widget-container">
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="800"
+                            height="721"
+                            src="https://duckyduck.io/wp-content/uploads/2024/07/Frame-38-1.png"
+                            class="attachment-large size-large wp-image-752"
+                            alt=""
+                            srcset="
+                              https://duckyduck.io/wp-content/uploads/2024/07/Frame-38-1.png         983w,
+                              https://duckyduck.io/wp-content/uploads/2024/07/Frame-38-1-300x270.png 300w,
+                              https://duckyduck.io/wp-content/uploads/2024/07/Frame-38-1-768x692.png 768w
+                            "
+                            sizes="(max-width: 800px) 100vw, 800px"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="swiper-slide"
+                  data-slide="5"
+                  role="group"
+                  aria-roledescription="slide"
+                  aria-label="5 of 10"
+                >
+                  <div
+                    class="elementor-element elementor-element-c235a6a e-flex e-con-boxed e-con e-child"
+                    data-id="c235a6a"
+                    data-element_type="container"
+                  >
+                    <div class="e-con-inner">
+                      <div
+                        class="elementor-element elementor-element-16ae22a elementor-widget elementor-widget-image"
+                        data-id="16ae22a"
+                        data-element_type="widget"
+                        data-widget_type="image.default"
+                      >
+                        <div class="elementor-widget-container">
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="494"
+                            height="445"
+                            src="https://duckyduck.io/wp-content/uploads/2024/07/Frame-35.png"
+                            class="attachment-large size-large wp-image-758"
+                            alt=""
+                            srcset="
+                              https://duckyduck.io/wp-content/uploads/2024/07/Frame-35.png         494w,
+                              https://duckyduck.io/wp-content/uploads/2024/07/Frame-35-300x270.png 300w
+                            "
+                            sizes="(max-width: 494px) 100vw, 494px"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="swiper-slide"
+                  data-slide="6"
+                  role="group"
+                  aria-roledescription="slide"
+                  aria-label="6 of 10"
+                >
+                  <div
+                    class="elementor-element elementor-element-f8b38df e-flex e-con-boxed e-con e-child"
+                    data-id="f8b38df"
+                    data-element_type="container"
+                  >
+                    <div class="e-con-inner">
+                      <div
+                        class="elementor-element elementor-element-957c563 elementor-widget elementor-widget-image"
+                        data-id="957c563"
+                        data-element_type="widget"
+                        data-widget_type="image.default"
+                      >
+                        <div class="elementor-widget-container">
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="523"
+                            height="479"
+                            src="https://duckyduck.io/wp-content/uploads/2024/07/Frame-30.png"
+                            class="attachment-large size-large wp-image-756"
+                            alt=""
+                            srcset="
+                              https://duckyduck.io/wp-content/uploads/2024/07/Frame-30.png         523w,
+                              https://duckyduck.io/wp-content/uploads/2024/07/Frame-30-300x275.png 300w
+                            "
+                            sizes="(max-width: 523px) 100vw, 523px"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="swiper-slide"
+                  data-slide="7"
+                  role="group"
+                  aria-roledescription="slide"
+                  aria-label="7 of 10"
+                >
+                  <div
+                    class="elementor-element elementor-element-c6d45ca e-flex e-con-boxed e-con e-child"
+                    data-id="c6d45ca"
+                    data-element_type="container"
+                  >
+                    <div class="e-con-inner">
+                      <div
+                        class="elementor-element elementor-element-4d76453 elementor-widget elementor-widget-image"
+                        data-id="4d76453"
+                        data-element_type="widget"
+                        data-widget_type="image.default"
+                      >
+                        <div class="elementor-widget-container">
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="514"
+                            height="468"
+                            src="https://duckyduck.io/wp-content/uploads/2024/07/Frame-36.png"
+                            class="attachment-large size-large wp-image-769"
+                            alt=""
+                            srcset="
+                              https://duckyduck.io/wp-content/uploads/2024/07/Frame-36.png         514w,
+                              https://duckyduck.io/wp-content/uploads/2024/07/Frame-36-300x273.png 300w
+                            "
+                            sizes="(max-width: 514px) 100vw, 514px"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="swiper-slide"
+                  data-slide="8"
+                  role="group"
+                  aria-roledescription="slide"
+                  aria-label="8 of 10"
+                >
+                  <div
+                    class="elementor-element elementor-element-ac8065a e-flex e-con-boxed e-con e-child"
+                    data-id="ac8065a"
+                    data-element_type="container"
+                  >
+                    <div class="e-con-inner">
+                      <div
+                        class="elementor-element elementor-element-8d06ef4 elementor-widget elementor-widget-image"
+                        data-id="8d06ef4"
+                        data-element_type="widget"
+                        data-widget_type="image.default"
+                      >
+                        <div class="elementor-widget-container">
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="525"
+                            height="482"
+                            src="https://duckyduck.io/wp-content/uploads/2024/07/Frame-37.png"
+                            class="attachment-large size-large wp-image-768"
+                            alt=""
+                            srcset="
+                              https://duckyduck.io/wp-content/uploads/2024/07/Frame-37.png         525w,
+                              https://duckyduck.io/wp-content/uploads/2024/07/Frame-37-300x275.png 300w
+                            "
+                            sizes="(max-width: 525px) 100vw, 525px"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="swiper-slide"
+                  data-slide="9"
+                  role="group"
+                  aria-roledescription="slide"
+                  aria-label="9 of 10"
+                >
+                  <div
+                    class="elementor-element elementor-element-7809e04 e-flex e-con-boxed e-con e-child"
+                    data-id="7809e04"
+                    data-element_type="container"
+                  >
+                    <div class="e-con-inner">
+                      <div
+                        class="elementor-element elementor-element-2c85b15 elementor-widget elementor-widget-image"
+                        data-id="2c85b15"
+                        data-element_type="widget"
+                        data-widget_type="image.default"
+                      >
+                        <div class="elementor-widget-container">
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="515"
+                            height="471"
+                            src="https://duckyduck.io/wp-content/uploads/2024/07/Frame-40.png"
+                            class="attachment-large size-large wp-image-767"
+                            alt=""
+                            srcset="
+                              https://duckyduck.io/wp-content/uploads/2024/07/Frame-40.png         515w,
+                              https://duckyduck.io/wp-content/uploads/2024/07/Frame-40-300x274.png 300w
+                            "
+                            sizes="(max-width: 515px) 100vw, 515px"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="swiper-slide"
+                  data-slide="10"
+                  role="group"
+                  aria-roledescription="slide"
+                  aria-label="10 of 10"
+                >
+                  <div
+                    class="elementor-element elementor-element-c14e398 e-flex e-con-boxed e-con e-child"
+                    data-id="c14e398"
+                    data-element_type="container"
+                  >
+                    <div class="e-con-inner">
+                      <div
+                        class="elementor-element elementor-element-9a9c1b1 elementor-widget elementor-widget-image"
+                        data-id="9a9c1b1"
+                        data-element_type="widget"
+                        data-widget_type="image.default"
+                      >
+                        <div class="elementor-widget-container">
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="487"
+                            height="437"
+                            src="https://duckyduck.io/wp-content/uploads/2024/07/Frame-32.png"
+                            class="attachment-large size-large wp-image-766"
+                            alt=""
+                            srcset="
+                              https://duckyduck.io/wp-content/uploads/2024/07/Frame-32.png         487w,
+                              https://duckyduck.io/wp-content/uploads/2024/07/Frame-32-300x269.png 300w
+                            "
+                            sizes="(max-width: 487px) 100vw, 487px"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+      <div
+        class="elementor-element elementor-element-e6ccd5b e-flex e-con-boxed e-con e-parent"
+        data-id="e6ccd5b"
+        data-element_type="container"
+      >
+        <div class="e-con-inner">
+          <div
+            class="elementor-element elementor-element-5157f93 elementor-widget elementor-widget-heading"
+            data-id="5157f93"
+            data-element_type="widget"
+            data-widget_type="heading.default"
+          >
+            <div class="elementor-widget-container">
+              <h2 class="elementor-heading-title elementor-size-default">
+                HEREIN LIES YOUR ANSWER
+              </h2>
+            </div>
+          </div>
+          <div
+            class="elementor-element elementor-element-11f95b6 elementor-widget elementor-widget-image"
+            data-id="11f95b6"
+            data-element_type="widget"
+            data-widget_type="image.default"
+          >
+            <div class="elementor-widget-container">
+              <img
+                loading="lazy"
+                decoding="async"
+                width="800"
+                height="800"
+                src="https://duckyduck.io/wp-content/uploads/2024/07/Asset-1@3x-2-1-1024x1024.webp"
+                class="attachment-large size-large wp-image-798"
+                alt="Moon Ducky"
+                srcset="
+                  https://duckyduck.io/wp-content/uploads/2024/07/Asset-1@3x-2-1-1024x1024.webp 1024w,
+                  https://duckyduck.io/wp-content/uploads/2024/07/Asset-1@3x-2-1-300x300.webp    300w,
+                  https://duckyduck.io/wp-content/uploads/2024/07/Asset-1@3x-2-1-150x150.webp    150w,
+                  https://duckyduck.io/wp-content/uploads/2024/07/Asset-1@3x-2-1-768x768.webp    768w,
+                  https://duckyduck.io/wp-content/uploads/2024/07/Asset-1@3x-2-1.webp           1164w
+                "
+                sizes="(max-width: 800px) 100vw, 800px"
+              />
+            </div>
+          </div>
+          <div
+            class="elementor-element elementor-element-a29dd94 elementor-widget__width-auto elementor-widget elementor-widget-image"
+            data-id="a29dd94"
+            data-element_type="widget"
+            data-widget_type="image.default"
+          >
+            <div class="elementor-widget-container">
+              <img
+                loading="lazy"
+                decoding="async"
+                width="800"
+                height="800"
+                src="https://duckyduck.io/wp-content/uploads/2024/07/Asset-2@3x-2-1-1024x1024.webp"
+                class="attachment-large size-large wp-image-805"
+                alt=""
+                srcset="
+                  https://duckyduck.io/wp-content/uploads/2024/07/Asset-2@3x-2-1-1024x1024.webp 1024w,
+                  https://duckyduck.io/wp-content/uploads/2024/07/Asset-2@3x-2-1-300x300.webp    300w,
+                  https://duckyduck.io/wp-content/uploads/2024/07/Asset-2@3x-2-1-150x150.webp    150w,
+                  https://duckyduck.io/wp-content/uploads/2024/07/Asset-2@3x-2-1-768x768.webp    768w,
+                  https://duckyduck.io/wp-content/uploads/2024/07/Asset-2@3x-2-1-1536x1536.webp 1536w,
+                  https://duckyduck.io/wp-content/uploads/2024/07/Asset-2@3x-2-1.webp           1696w
+                "
+                sizes="(max-width: 800px) 100vw, 800px"
+              />
+            </div>
+          </div>
+          <div
+            class="elementor-element elementor-element-0c67049 elementor-widget elementor-widget-n-accordion"
+            data-id="0c67049"
+            data-element_type="widget"
+            data-settings='{"default_state":"expanded","max_items_expended":"one","n_accordion_animation_duration":{"unit":"ms","size":400,"sizes":[]}}'
+            data-widget_type="nested-accordion.default"
+          >
+            <div class="elementor-widget-container">
+              <div
+                class="e-n-accordion"
+                aria-label="Accordion. Open links with Enter or Space, close with Escape, and navigate with Arrow Keys"
+              >
+                <details
+                  id="e-n-accordion-item-1300"
+                  class="e-n-accordion-item"
+                  open
+                >
+                  <summary
+                    class="e-n-accordion-item-title"
+                    data-accordion-index="1"
+                    tabindex="0"
+                    aria-expanded="true"
+                    aria-controls="e-n-accordion-item-1300"
+                  >
+                    <span class="e-n-accordion-item-title-header"
+                      ><div class="e-n-accordion-item-title-text">
+                        HOW DO I BUY $DUCKY ?
+                      </div></span
+                    >
+                    <span class="e-n-accordion-item-title-icon">
+                      <span class="e-opened"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="93"
+                          height="53"
+                          viewBox="0 0 93 53"
+                          fill="none"
+                        >
+                          <path
+                            d="M17.4254 39.6867L20.3132 42.5755C21.3139 43.5251 22.4827 44 23.8168 44C25.1785 44 26.3334 43.5251 27.2834 42.5755L45.9999 23.8584L64.7164 42.5749C65.6662 43.5245 66.8214 43.9995 68.1825 43.9995C69.5174 43.9995 70.6859 43.5245 71.6867 42.5749L74.5366 39.6862C75.5124 38.7111 76 37.5426 76 36.1817C76 34.7955 75.5118 33.6402 74.5368 32.7161L49.4663 7.64544C48.5416 6.67021 47.3869 6.1822 46.0001 6.1822C44.6394 6.1822 43.471 6.67007 42.4961 7.64544L17.4255 32.7161C16.4755 33.6662 16.0002 34.8214 16.0002 36.1817C16 37.5172 16.4754 38.6851 17.4254 39.6867Z"
+                            fill="black"
+                          ></path></svg
+                      ></span>
+                      <span class="e-closed"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="93"
+                          height="53"
+                          viewBox="0 0 93 53"
+                          fill="none"
+                        >
+                          <path
+                            d="M75.5746 13.3133L72.6868 10.4246C71.6861 9.475 70.5173 9.00007 69.1832 9.00007C67.8215 9.00007 66.6666 9.475 65.7166 10.4246L47 29.1417L28.2836 10.4251C27.3338 9.47554 26.1786 9.0006 24.8175 9.0006C23.4826 9.0006 22.3141 9.47554 21.3133 10.4251L18.4634 13.3139C17.4876 14.289 17 15.4575 17 16.8183C17 18.2046 17.4882 19.3599 18.4632 20.284L43.5337 45.3546C44.4584 46.3299 45.6131 46.8179 46.9999 46.8179C48.3606 46.8179 49.529 46.33 50.5039 45.3546L75.5745 20.284C76.5245 19.3338 76.9998 18.1787 76.9998 16.8183C77 15.4828 76.5246 14.315 75.5746 13.3133Z"
+                            fill="black"
+                          ></path></svg
+                      ></span>
+                    </span>
+                  </summary>
+                  <div
+                    role="region"
+                    aria-labelledby="e-n-accordion-item-1300"
+                    class="elementor-element elementor-element-4a0abc4 e-con-full e-flex e-con e-child"
+                    data-id="4a0abc4"
+                    data-element_type="container"
+                  >
+                    <div
+                      class="elementor-element elementor-element-6d37987 elementor-align-justify elementor-widget elementor-widget-button"
+                      data-id="6d37987"
+                      data-element_type="widget"
+                      data-widget_type="button.default"
+                    >
+                      <div class="elementor-widget-container">
+                        <div class="elementor-button-wrapper">
+                          <a
+                            class="elementor-button elementor-button-link elementor-size-sm"
+                            href="https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x00000000000000000000000000000000000000(buy)"
+                          >
+                            <span class="elementor-button-content-wrapper">
+                              <span class="elementor-button-text"
+                                >BUY HERE</span
+                              >
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </details>
+                <details
+                  id="e-n-accordion-item-1301"
+                  class="e-n-accordion-item"
+                >
+                  <summary
+                    class="e-n-accordion-item-title"
+                    data-accordion-index="2"
+                    tabindex="-1"
+                    aria-expanded="false"
+                    aria-controls="e-n-accordion-item-1301"
+                  >
+                    <span class="e-n-accordion-item-title-header"
+                      ><div class="e-n-accordion-item-title-text">
+                        IS THIS THE ORIGINAL DUCKY?
+                      </div></span
+                    >
+                    <span class="e-n-accordion-item-title-icon">
+                      <span class="e-opened"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="93"
+                          height="53"
+                          viewBox="0 0 93 53"
+                          fill="none"
+                        >
+                          <path
+                            d="M17.4254 39.6867L20.3132 42.5755C21.3139 43.5251 22.4827 44 23.8168 44C25.1785 44 26.3334 43.5251 27.2834 42.5755L45.9999 23.8584L64.7164 42.5749C65.6662 43.5245 66.8214 43.9995 68.1825 43.9995C69.5174 43.9995 70.6859 43.5245 71.6867 42.5749L74.5366 39.6862C75.5124 38.7111 76 37.5426 76 36.1817C76 34.7955 75.5118 33.6402 74.5368 32.7161L49.4663 7.64544C48.5416 6.67021 47.3869 6.1822 46.0001 6.1822C44.6394 6.1822 43.471 6.67007 42.4961 7.64544L17.4255 32.7161C16.4755 33.6662 16.0002 34.8214 16.0002 36.1817C16 37.5172 16.4754 38.6851 17.4254 39.6867Z"
+                            fill="black"
+                          ></path></svg
+                      ></span>
+                      <span class="e-closed"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="93"
+                          height="53"
+                          viewBox="0 0 93 53"
+                          fill="none"
+                        >
+                          <path
+                            d="M75.5746 13.3133L72.6868 10.4246C71.6861 9.475 70.5173 9.00007 69.1832 9.00007C67.8215 9.00007 66.6666 9.475 65.7166 10.4246L47 29.1417L28.2836 10.4251C27.3338 9.47554 26.1786 9.0006 24.8175 9.0006C23.4826 9.0006 22.3141 9.47554 21.3133 10.4251L18.4634 13.3139C17.4876 14.289 17 15.4575 17 16.8183C17 18.2046 17.4882 19.3599 18.4632 20.284L43.5337 45.3546C44.4584 46.3299 45.6131 46.8179 46.9999 46.8179C48.3606 46.8179 49.529 46.33 50.5039 45.3546L75.5745 20.284C76.5245 19.3338 76.9998 18.1787 76.9998 16.8183C77 15.4828 76.5246 14.315 75.5746 13.3133Z"
+                            fill="black"
+                          ></path></svg
+                      ></span>
+                    </span>
+                  </summary>
+                  <div
+                    role="region"
+                    aria-labelledby="e-n-accordion-item-1301"
+                    class="elementor-element elementor-element-8829cfe e-con-full e-flex e-con e-child"
+                    data-id="8829cfe"
+                    data-element_type="container"
+                  >
+                    <div
+                      class="elementor-element elementor-element-c0a2feb elementor-align-justify elementor-widget elementor-widget-button"
+                      data-id="c0a2feb"
+                      data-element_type="widget"
+                      data-widget_type="button.default"
+                    >
+                      <div class="elementor-widget-container">
+                        <div class="elementor-button-wrapper">
+                          <a
+                            class="elementor-button elementor-size-sm"
+                            role="button"
+                          >
+                            <span class="elementor-button-content-wrapper">
+                              <span class="elementor-button-text"
+                                >WHAT DOES IT LOOK LIKE?</span
+                              >
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </details>
+                <details
+                  id="e-n-accordion-item-1302"
+                  class="e-n-accordion-item"
+                >
+                  <summary
+                    class="e-n-accordion-item-title"
+                    data-accordion-index="3"
+                    tabindex="-1"
+                    aria-expanded="false"
+                    aria-controls="e-n-accordion-item-1302"
+                  >
+                    <span class="e-n-accordion-item-title-header"
+                      ><div class="e-n-accordion-item-title-text">
+                        WHICH BLOCKCHAIN?
+                      </div></span
+                    >
+                    <span class="e-n-accordion-item-title-icon">
+                      <span class="e-opened"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="93"
+                          height="53"
+                          viewBox="0 0 93 53"
+                          fill="none"
+                        >
+                          <path
+                            d="M17.4254 39.6867L20.3132 42.5755C21.3139 43.5251 22.4827 44 23.8168 44C25.1785 44 26.3334 43.5251 27.2834 42.5755L45.9999 23.8584L64.7164 42.5749C65.6662 43.5245 66.8214 43.9995 68.1825 43.9995C69.5174 43.9995 70.6859 43.5245 71.6867 42.5749L74.5366 39.6862C75.5124 38.7111 76 37.5426 76 36.1817C76 34.7955 75.5118 33.6402 74.5368 32.7161L49.4663 7.64544C48.5416 6.67021 47.3869 6.1822 46.0001 6.1822C44.6394 6.1822 43.471 6.67007 42.4961 7.64544L17.4255 32.7161C16.4755 33.6662 16.0002 34.8214 16.0002 36.1817C16 37.5172 16.4754 38.6851 17.4254 39.6867Z"
+                            fill="black"
+                          ></path></svg
+                      ></span>
+                      <span class="e-closed"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="93"
+                          height="53"
+                          viewBox="0 0 93 53"
+                          fill="none"
+                        >
+                          <path
+                            d="M75.5746 13.3133L72.6868 10.4246C71.6861 9.475 70.5173 9.00007 69.1832 9.00007C67.8215 9.00007 66.6666 9.475 65.7166 10.4246L47 29.1417L28.2836 10.4251C27.3338 9.47554 26.1786 9.0006 24.8175 9.0006C23.4826 9.0006 22.3141 9.47554 21.3133 10.4251L18.4634 13.3139C17.4876 14.289 17 15.4575 17 16.8183C17 18.2046 17.4882 19.3599 18.4632 20.284L43.5337 45.3546C44.4584 46.3299 45.6131 46.8179 46.9999 46.8179C48.3606 46.8179 49.529 46.33 50.5039 45.3546L75.5745 20.284C76.5245 19.3338 76.9998 18.1787 76.9998 16.8183C77 15.4828 76.5246 14.315 75.5746 13.3133Z"
+                            fill="black"
+                          ></path></svg
+                      ></span>
+                    </span>
+                  </summary>
+                  <div
+                    role="region"
+                    aria-labelledby="e-n-accordion-item-1302"
+                    class="elementor-element elementor-element-006bb25 e-con-full e-flex e-con e-child"
+                    data-id="006bb25"
+                    data-element_type="container"
+                  >
+                    <div
+                      class="elementor-element elementor-element-8736d18 elementor-align-justify elementor-widget elementor-widget-button"
+                      data-id="8736d18"
+                      data-element_type="widget"
+                      data-widget_type="button.default"
+                    >
+                      <div class="elementor-widget-container">
+                        <div class="elementor-button-wrapper">
+                          <a
+                            class="elementor-button elementor-size-sm"
+                            role="button"
+                          >
+                            <span class="elementor-button-content-wrapper">
+                              <span class="elementor-button-text"
+                                >DUCKY IS ON SOLANA</span
+                              >
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </details>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="elementor-element elementor-element-c03938e e-flex e-con-boxed e-con e-parent"
+        data-id="c03938e"
+        data-element_type="container"
+      >
+        <div class="e-con-inner">
+          <div
+            class="elementor-element elementor-element-16c7595 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+            data-id="16c7595"
+            data-element_type="widget"
+            data-widget_type="icon-list.default"
+          >
+            <div class="elementor-widget-container">
+              <ul class="elementor-icon-list-items">
+                <li class="elementor-icon-list-item">
+                  <span class="elementor-icon-list-text"
+                    >BUILT ON Ethereum</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="elementor-element elementor-element-93eb3ce elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons"
+            data-id="93eb3ce"
+            data-element_type="widget"
+            data-widget_type="social-icons.default"
+          >
+            <div class="elementor-widget-container">
+              <div class="elementor-social-icons-wrapper elementor-grid">
+                <span class="elementor-grid-item">
+                  <a
+                    class="elementor-icon elementor-social-icon elementor-social-icon-telegram elementor-repeater-item-1070626"
+                    href="https://t.me/DuckyDuckClub"
+                    target="_blank"
+                  >
+                    <span class="elementor-screen-only">Telegram</span>
+                    <svg
+                      class="e-font-icon-svg e-fab-telegram"
+                      viewBox="0 0 496 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"
+                      ></path>
+                    </svg>
+                  </a>
+                </span>
+                <span class="elementor-grid-item">
+                  <a
+                    class="elementor-icon elementor-social-icon elementor-social-icon-x-twitter elementor-repeater-item-d5ba7b5"
+                    href="https://x.com/"
+                    target="_blank"
+                  >
+                    <span class="elementor-screen-only">X-twitter</span>
+                    <svg
+                      class="e-font-icon-svg e-fab-x-twitter"
+                      viewBox="0 0 512 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+                      ></path>
+                    </svg>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="elementor-element elementor-element-89b36b4 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+            data-id="89b36b4"
+            data-element_type="widget"
+            data-widget_type="icon-list.default"
+          >
+            <div class="elementor-widget-container">
+              <ul class="elementor-icon-list-items">
+                <li class="elementor-icon-list-item">
+                  <a
+                    href="/cdn-cgi/l/email-protection#fc9499909093bc98899f978598899f97d29593"
+                  >
+                    <span class="elementor-icon-list-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="35"
+                        height="28"
+                        viewBox="0 0 35 28"
+                        fill="none"
+                      >
+                        <g clip-path="url(#clip0_62_177)">
+                          <path
+                            d="M22.5347 15.1318L19.622 17.4803C18.4408 18.4328 16.3626 18.4533 15.1559 17.4803L12.243 15.1318L1.78143 23.5658C2.17084 23.7105 2.6002 23.7968 3.05666 23.7968H31.7212C32.1776 23.7968 32.6068 23.7106 32.9961 23.5658L22.5347 15.1318Z"
+                            fill="#FA63C6"
+                          ></path>
+                          <path
+                            d="M31.7211 4.14746H3.05663C2.60018 4.14746 2.17082 4.23381 1.78154 4.37851L12.9605 13.3914C12.9612 13.392 12.9621 13.3921 12.9629 13.3927C12.9636 13.3933 12.9638 13.3941 12.9638 13.3941L16.5986 16.3247C16.9847 16.6349 17.7932 16.6349 18.1793 16.3247L21.8134 13.3946C21.8134 13.3946 21.8143 13.3933 21.815 13.3927C21.815 13.3927 21.8167 13.392 21.8174 13.3914L32.9961 4.37846C32.6068 4.2337 32.1776 4.14746 31.7211 4.14746Z"
+                            fill="#FA63C6"
+                          ></path>
+                          <path
+                            d="M0.325091 5.52441C0.123624 5.8518 0 6.21521 0 6.6045V21.3419C0 21.7312 0.123488 22.0946 0.325023 22.422L10.8047 13.9735L0.325091 5.52441Z"
+                            fill="#FA63C6"
+                          ></path>
+                          <path
+                            d="M34.4527 5.52441L23.9731 13.9736L34.4527 22.4222C34.6541 22.0948 34.7778 21.7314 34.7778 21.342V6.60461C34.7778 6.21521 34.6541 5.8518 34.4527 5.52441Z"
+                            fill="#FA63C6"
+                          ></path>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_62_177">
+                            <rect
+                              width="34.7778"
+                              height="27.9464"
+                              fill="white"
+                            ></rect>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </span>
+                    <span class="elementor-icon-list-text"
+                      ><span
+                        class="__cf_email__"
+                        data-cfemail="6008050c0c0f200415030b190415030b4e090f"
+                        >[email&#160;protected]</span
+                      ></span
+                    >
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="elementor-element elementor-element-2ff1720 elementor-widget elementor-widget-text-editor"
+            data-id="2ff1720"
+            data-element_type="widget"
+            data-widget_type="text-editor.default"
+          >
+            <div class="elementor-widget-container">
+              <p>
+                DUCK BROS &#8211; FZCO DSO RAKEZ Properties, Emaar
+                Square Copyright<br />©2024 DuckyDuck. All Rights Reserved. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="elementor-element elementor-element-b67758e e-flex e-con-boxed e-con e-parent"
+        data-id="b67758e"
+        data-element_type="container"
+        data-settings='{"position":"fixed"}'
+      >
+        <div class="e-con-inner">
+          <div
+            class="elementor-element elementor-element-0ccec8f e-con-full e-flex e-con e-child"
+            data-id="0ccec8f"
+            data-element_type="container"
+          >
+            <div
+              class="elementor-element elementor-element-f72d849 elementor-align-center elementor-widget elementor-widget-lottie"
+              data-id="f72d849"
+              data-element_type="widget"
+              data-settings='{"source":"external_url","source_external_url":{"url":"https:\/\/lottie.host\/2325cf6a-1bcf-4d61-8a51-bdd4df8d7000\/y01pSu5rPN.json","is_external":"","nofollow":"","custom_attributes":""},"loop":"yes","play_speed":{"unit":"px","size":1.5,"sizes":[]},"link_to":"none","trigger":"arriving_to_viewport","viewport":{"unit":"%","size":"","sizes":{"start":0,"end":100}},"start_point":{"unit":"%","size":0,"sizes":[]},"end_point":{"unit":"%","size":100,"sizes":[]},"renderer":"svg"}'
+              data-widget_type="lottie.default"
+            >
+              <div class="elementor-widget-container">
+                <div class="e-lottie__container">
+                  <div class="e-lottie__animation"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="elementor-element elementor-element-88192ce e-con-full e-flex e-con e-child"
+            data-id="88192ce"
+            data-element_type="container"
+          >
+            <div
+              class="elementor-element elementor-element-8fa0d7e elementor-align-center elementor-widget elementor-widget-lottie"
+              data-id="8fa0d7e"
+              data-element_type="widget"
+              data-settings='{"source":"external_url","source_external_url":{"url":"https:\/\/lottie.host\/42582f55-72a4-433b-8571-8a18a770bccc\/DcXXvXR05L.json","is_external":"","nofollow":"","custom_attributes":""},"loop":"yes","play_speed":{"unit":"px","size":1.5,"sizes":[]},"link_to":"none","trigger":"arriving_to_viewport","viewport":{"unit":"%","size":"","sizes":{"start":0,"end":100}},"start_point":{"unit":"%","size":0,"sizes":[]},"end_point":{"unit":"%","size":100,"sizes":[]},"renderer":"svg"}'
+              data-widget_type="lottie.default"
+            >
+              <div class="elementor-widget-container">
+                <div class="e-lottie__container">
+                  <div class="e-lottie__animation"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      data-elementor-type="popup"
+      data-elementor-id="662"
+      class="elementor elementor-662 elementor-location-popup"
+      data-elementor-settings='{"entrance_animation":"slideInRight","exit_animation":"slideInRight","entrance_animation_duration":{"unit":"px","size":0.59999999999999997779553950749686919152736663818359375,"sizes":[]},"a11y_navigation":"yes","triggers":[],"timing":[]}'
+      data-elementor-post-type="elementor_library"
+    >
+      <div
+        class="elementor-element elementor-element-c7a2d97 e-flex e-con-boxed e-con e-parent"
+        data-id="c7a2d97"
+        data-element_type="container"
+      >
+        <div class="e-con-inner">
+          <div
+            class="elementor-element elementor-element-070e53f elementor-widget elementor-widget-heading"
+            data-id="070e53f"
+            data-element_type="widget"
+            data-widget_type="heading.default"
+          >
+            <div class="elementor-widget-container">
+              <h2 class="elementor-heading-title elementor-size-default">
+                <a href="#">Home</a>
+              </h2>
+            </div>
+          </div>
+          <div
+            class="elementor-element elementor-element-844ef20 elementor-widget elementor-widget-heading"
+            data-id="844ef20"
+            data-element_type="widget"
+            data-widget_type="heading.default"
+          >
+            <div class="elementor-widget-container">
+              <h2 class="elementor-heading-title elementor-size-default">
+                <a href="#buy">How To Buy</a>
+              </h2>
+            </div>
+          </div>
+          <div
+            class="elementor-element elementor-element-fdb3e98 elementor-widget elementor-widget-heading"
+            data-id="fdb3e98"
+            data-element_type="widget"
+            data-widget_type="heading.default"
+          >
+            <div class="elementor-widget-container">
+              <h2 class="elementor-heading-title elementor-size-default">
+                <a href="#memes">Memes</a>
+              </h2>
+            </div>
+          </div>
+          <div
+            class="elementor-element elementor-element-7dd0b91 elementor-widget elementor-widget-heading"
+            data-id="7dd0b91"
+            data-element_type="widget"
+            data-widget_type="heading.default"
+          >
+            <div class="elementor-widget-container">
+              <h2 class="elementor-heading-title elementor-size-default">
+                <a
+                  href="https://duckyduck.io/wp-content/uploads/2024/08/DuckyWhitePaper_EN-1.pdf"
+                  >Whitepaper</a
+                >
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      data-cfasync="false"
+      src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script type="text/javascript">
+      const lazyloadRunObserver = () => {
+        const lazyloadBackgrounds = document.querySelectorAll(
+          `.e-con.e-parent:not(.e-lazyloaded)`
+        );
+        const lazyloadBackgroundObserver = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                let lazyloadBackground = entry.target;
+                if (lazyloadBackground) {
+                  lazyloadBackground.classList.add("e-lazyloaded");
+                }
+                lazyloadBackgroundObserver.unobserve(entry.target);
+              }
+            });
+          },
+          { rootMargin: "200px 0px 200px 0px" }
+        );
+        lazyloadBackgrounds.forEach((lazyloadBackground) => {
+          lazyloadBackgroundObserver.observe(lazyloadBackground);
+        });
+      };
+      const events = ["DOMContentLoaded", "elementor/lazyload/observe"];
+      events.forEach((event) => {
+        document.addEventListener(event, lazyloadRunObserver);
+      });
+    </script>
+    <link
+      rel="stylesheet"
+      id="e-animation-slideInRight-css"
+      href="https://duckyduck.io/wp-content/plugins/elementor/assets/lib/animations/styles/slideInRight.min.css?ver=3.26.0"
+      media="all"
+    />
+    <script
+      src="https://duckyduck.io/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js?ver=3.2.1"
+      id="hello-theme-frontend-js"
+    ></script>
+    <script
+      src="https://duckyduck.io/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.23.2"
+      id="e-sticky-js"
+    ></script>
+    <script
+      src="https://duckyduck.io/wp-content/plugins/elementor-pro/assets/lib/lottie/lottie.min.js?ver=5.6.6"
+      id="lottie-js"
+    ></script>
+    <script
+      src="https://duckyduck.io/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.23.2"
+      id="elementor-pro-webpack-runtime-js"
+    ></script>
+    <script
+      src="https://duckyduck.io/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.26.0"
+      id="elementor-webpack-runtime-js"
+    ></script>
+    <script
+      src="https://duckyduck.io/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.26.0"
+      id="elementor-frontend-modules-js"
+    ></script>
+    <script
+      src="https://duckyduck.io/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18"
+      id="wp-hooks-js"
+    ></script>
+    <script
+      src="https://duckyduck.io/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6"
+      id="wp-i18n-js"
+    ></script>
+    <script id="wp-i18n-js-after">
+      wp.i18n.setLocaleData({ "text direction\u0004ltr": ["ltr"] });
+    </script>
+    <script id="elementor-pro-frontend-js-before">
+      var ElementorProFrontendConfig = {
+        ajaxurl: "https:\/\/duckyduck.io\/wp-admin\/admin-ajax.php",
+        nonce: "523a26ff2e",
+        urls: {
+          assets:
+            "https:\/\/duckyduck.io\/wp-content\/plugins\/elementor-pro\/assets\/",
+          rest: "https:\/\/duckyduck.io\/wp-json\/",
+        },
+        shareButtonsNetworks: {
+          facebook: { title: "Facebook", has_counter: true },
+          twitter: { title: "Twitter" },
+          linkedin: { title: "LinkedIn", has_counter: true },
+          pinterest: { title: "Pinterest", has_counter: true },
+          reddit: { title: "Reddit", has_counter: true },
+          vk: { title: "VK", has_counter: true },
+          odnoklassniki: { title: "OK", has_counter: true },
+          tumblr: { title: "Tumblr" },
+          digg: { title: "Digg" },
+          skype: { title: "Skype" },
+          stumbleupon: { title: "StumbleUpon", has_counter: true },
+          mix: { title: "Mix" },
+          telegram: { title: "Telegram" },
+          pocket: { title: "Pocket", has_counter: true },
+          xing: { title: "XING", has_counter: true },
+          whatsapp: { title: "WhatsApp" },
+          email: { title: "Email" },
+          print: { title: "Print" },
+          "x-twitter": { title: "X" },
+          threads: { title: "Threads" },
+        },
+        facebook_sdk: { lang: "en_US", app_id: "" },
+        lottie: {
+          defaultAnimationUrl:
+            "https:\/\/duckyduck.io\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json",
+        },
+      };
+    </script>
+    <script
+      src="https://duckyduck.io/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.23.2"
+      id="elementor-pro-frontend-js"
+    ></script>
+    <script
+      src="https://duckyduck.io/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3"
+      id="jquery-ui-core-js"
+    ></script>
+    <script id="elementor-frontend-js-before">
+      var elementorFrontendConfig = {
+        environmentMode: {
+          edit: false,
+          wpPreview: false,
+          isScriptDebug: false,
+        },
+        i18n: {
+          shareOnFacebook: "Share on Facebook",
+          shareOnTwitter: "Share on Twitter",
+          pinIt: "Pin it",
+          download: "Download",
+          downloadImage: "Download image",
+          fullscreen: "Fullscreen",
+          zoom: "Zoom",
+          share: "Share",
+          playVideo: "Play Video",
+          previous: "Previous",
+          next: "Next",
+          close: "Close",
+          a11yCarouselPrevSlideMessage: "Previous slide",
+          a11yCarouselNextSlideMessage: "Next slide",
+          a11yCarouselFirstSlideMessage: "This is the first slide",
+          a11yCarouselLastSlideMessage: "This is the last slide",
+          a11yCarouselPaginationBulletMessage: "Go to slide",
+        },
+        is_rtl: false,
+        breakpoints: { xs: 0, sm: 480, md: 768, lg: 1025, xl: 1440, xxl: 1600 },
+        responsive: {
+          breakpoints: {
+            mobile: {
+              label: "Mobile Portrait",
+              value: 767,
+              default_value: 767,
+              direction: "max",
+              is_enabled: true,
+            },
+            mobile_extra: {
+              label: "Mobile Landscape",
+              value: 880,
+              default_value: 880,
+              direction: "max",
+              is_enabled: false,
+            },
+            tablet: {
+              label: "Tablet Portrait",
+              value: 1024,
+              default_value: 1024,
+              direction: "max",
+              is_enabled: true,
+            },
+            tablet_extra: {
+              label: "Tablet Landscape",
+              value: 1200,
+              default_value: 1200,
+              direction: "max",
+              is_enabled: false,
+            },
+            laptop: {
+              label: "Laptop",
+              value: 1366,
+              default_value: 1366,
+              direction: "max",
+              is_enabled: false,
+            },
+            widescreen: {
+              label: "Widescreen",
+              value: 2400,
+              default_value: 2400,
+              direction: "min",
+              is_enabled: false,
+            },
+          },
+          hasCustomBreakpoints: false,
+        },
+        version: "3.26.0",
+        is_static: false,
+        experimentalFeatures: {
+          e_font_icon_svg: true,
+          additional_custom_breakpoints: true,
+          container: true,
+          e_swiper_latest: true,
+          e_nested_atomic_repeaters: true,
+          e_onboarding: true,
+          e_css_smooth_scroll: true,
+          theme_builder_v2: true,
+          "hello-theme-header-footer": true,
+          home_screen: true,
+          "landing-pages": true,
+          "nested-elements": true,
+          editor_v2: true,
+          e_element_cache: true,
+          "link-in-bio": true,
+          "floating-buttons": true,
+          "display-conditions": true,
+          "form-submissions": true,
+          "mega-menu": true,
+          "taxonomy-filter": true,
+          search: true,
+        },
+        urls: {
+          assets:
+            "https:\/\/duckyduck.io\/wp-content\/plugins\/elementor\/assets\/",
+          ajaxurl: "https:\/\/duckyduck.io\/wp-admin\/admin-ajax.php",
+          uploadUrl: "https:\/\/duckyduck.io\/wp-content\/uploads",
+        },
+        nonces: { floatingButtonsClickTracking: "167cb89055" },
+        swiperClass: "swiper",
+        settings: { page: [], editorPreferences: [] },
+        kit: {
+          active_breakpoints: ["viewport_mobile", "viewport_tablet"],
+          global_image_lightbox: "yes",
+          lightbox_enable_counter: "yes",
+          lightbox_enable_fullscreen: "yes",
+          lightbox_enable_zoom: "yes",
+          lightbox_enable_share: "yes",
+          lightbox_title_src: "title",
+          lightbox_description_src: "description",
+          hello_header_logo_type: "title",
+          hello_footer_logo_type: "logo",
+        },
+        post: {
+          id: 977,
+          title: "Ducky%20Duck",
+          excerpt: "",
+          featuredImage: false,
+        },
+      };
+    </script>
+    <script
+      src="https://duckyduck.io/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.26.0"
+      id="elementor-frontend-js"
+    ></script>
+    <script
+      src="https://duckyduck.io/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.23.2"
+      id="pro-elements-handlers-js"
+    ></script>
+    <script>
+      "undefined" === typeof _trfq || (window._trfq = []);
+      "undefined" === typeof _trfd && (window._trfd = []),
+        _trfd.push({ "tccl.baseHost": "secureserver.net" }),
+        _trfd.push(
+          { ap: "wpaas" },
+          { server: "5a74e85e-cd74-d3fb-4f37-300af3e93d7a.secureserver.net" },
+          { pod: "P3NLWPPOD11" },
+          { storage: "p3cephmah005pod11_data20" },
+          { xid: "45541220" },
+          { wp: "6.6.2" },
+          { php: "8.0.30.4" },
+          { loggedin: "0" },
+          { cdn: "1" },
+          { builder: "elementor" },
+          { theme: "hello-elementor" },
+          { wds: "0" },
+          { wp_alloptions_count: "586" },
+          { wp_alloptions_bytes: "149425" },
+          { gdl_coming_soon_page: "0" }
+        );
+      var trafficScript = document.createElement("script");
+      trafficScript.src =
+        "https://img1.wsimg.com/signals/js/clients/scc-c2/scc-c2.min.js";
+      window.document.head.appendChild(trafficScript);
+    </script>
+    <script>
+      window.addEventListener("click", function (elem) {
+        var _elem$target, _elem$target$dataset, _window, _window$_trfq;
+        return (
+          (elem === null || elem === void 0
+            ? void 0
+            : (_elem$target = elem.target) === null || _elem$target === void 0
+            ? void 0
+            : (_elem$target$dataset = _elem$target.dataset) === null ||
+              _elem$target$dataset === void 0
+            ? void 0
+            : _elem$target$dataset.eid) &&
+          ((_window = window) === null || _window === void 0
+            ? void 0
+            : (_window$_trfq = _window._trfq) === null ||
+              _window$_trfq === void 0
+            ? void 0
+            : _window$_trfq.push([
+                "cmdLogEvent",
+                "click",
+                elem.target.dataset.eid,
+              ]))
+        );
+      });
+    </script>
+    <script
+      src="https://img1.wsimg.com/traffic-assets/js/tccl-tti.min.js"
+      onload="window.tti.calculateTTI()"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+.elementor-662 .elementor-element.elementor-element-c7a2d97 {
+  --display: flex;
+  --flex-direction: column;
+  --container-widget-width: 100%;
+  --container-widget-height: initial;
+  --container-widget-flex-grow: 0;
+  --container-widget-align-self: initial;
+  --flex-wrap-mobile: wrap;
+}
+.elementor-widget-heading .elementor-heading-title {
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-weight: var(--e-global-typography-primary-font-weight);
+  color: var(--e-global-color-primary);
+}
+.elementor-662
+  .elementor-element.elementor-element-070e53f
+  .elementor-heading-title {
+  color: var(--e-global-color-secondary);
+}
+.elementor-662
+  .elementor-element.elementor-element-844ef20
+  .elementor-heading-title {
+  color: var(--e-global-color-secondary);
+}
+.elementor-662
+  .elementor-element.elementor-element-fdb3e98
+  .elementor-heading-title {
+  color: var(--e-global-color-secondary);
+}
+.elementor-662
+  .elementor-element.elementor-element-7dd0b91
+  .elementor-heading-title {
+  color: var(--e-global-color-secondary);
+}
+#elementor-popup-modal-662 .dialog-widget-content {
+  animation-duration: 0.6s;
+  background-color: #000000;
+  box-shadow: 2px 8px 23px 3px rgba(0, 0, 0, 0.2);
+}
+#elementor-popup-modal-662 {
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: flex-end;
+  align-items: center;
+  pointer-events: all;
+}
+#elementor-popup-modal-662 .dialog-message {
+  width: 640px;
+  height: 100vh;
+  align-items: flex-start;
+}
+#elementor-popup-modal-662 .dialog-close-button {
+  display: flex;
+}
+#elementor-popup-modal-662 .dialog-close-button i {
+  color: var(--e-global-color-primary);
+}
+#elementor-popup-modal-662 .dialog-close-button svg {
+  fill: var(--e-global-color-primary);
+}
+@media (max-width: 767px) {
+  .elementor-662 .elementor-element.elementor-element-c7a2d97 {
+    --gap: 30px 30px;
+    --row-gap: 30px;
+    --column-gap: 30px;
+  }
+  .elementor-662
+    .elementor-element.elementor-element-070e53f
+    > .elementor-widget-container {
+    margin: 70px 0px 0px 0px;
+  }
+  #elementor-popup-modal-662 .dialog-message {
+    width: 60vw;
+  }
+  #elementor-popup-modal-662 {
+    justify-content: flex-end;
+  }
+  #elementor-popup-modal-662 .dialog-widget-content {
+    border-radius: 20px 20px 20px 20px;
+  }
+  #elementor-popup-modal-662 .dialog-close-button {
+    font-size: 20px;
+  }
+}
